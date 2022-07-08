@@ -1,0 +1,9 @@
+train: /content/drive/MyDrive/dataset/train/Doors # train images (relative to 'path') 118287 images
+val: /content/drive/MyDrive/dataset/val/Doors # val images (relative to 'path') 5000 images
+test: /content/drive/MyDrive/dataset/test/Doors # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+nc: 4  # number of classes
+names: ['door', 'handle', 'cabinet door', 'refrigerator door']  # class names
+
+

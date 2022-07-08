@@ -1,0 +1,2 @@
+If you want to open the "RILey-PCB_V2.0_v99.f3z" file, you have to open fusion (360) and make a workspace, and upload this file.
+Then it downloads all the files that have been made before.

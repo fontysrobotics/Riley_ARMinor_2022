@@ -1,0 +1,29 @@
+Notes to the RILey PCB V1.0
+
+Needs to be changed / added:
+- battery power diodes (different ones)					-- check
+- Enable pins of the stepper drivers					-- check
+- Stepper drivers dimentions							-- check
+- Lidar hardware disable		    					-- check
+- Acces to all GPIO pins							-- check
+- Raspberry is not getting a constant voltage				-- check
+- Battery fuse									-- check
+
+- (higher quality stepper drivers (different pinout, dimentions))	-- NA
+
+
+
+battery fuse specs needed:
+	max current draw expected:
+		Raspberry Pi 4:			4A 	max	4A	max
+		Lidar:				0.3A	max	0.3A 	max
+		Stepper motors (2x):		1.7A	max	3.4A 	max
+		Modules:
+			- Stepper driver (2x):	8mA 	max	16mA	max
+			- TOF:			18mA	max	18mA	max
+			- Power Meter:		330uA	max	330uA	max
+			- IMU:			10mA	max	10mA	max
+			- buck converter:		5mA	max	5mA	max
+									________ +
+	Absolute worst-case senario total current draw:	7.8A	max
+		

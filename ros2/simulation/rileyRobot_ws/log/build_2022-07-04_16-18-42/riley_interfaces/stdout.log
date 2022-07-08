@@ -1,0 +1,342 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/student/rileyRobot_ws/build/riley_interfaces
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target riley_interfaces__cpp[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target riley_interfaces__cpp
+[  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_generator_c[0m
+[  8%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_generator_c.dir/rosidl_generator_c/riley_interfaces/msg/detail/accelerometer__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_generator_c.dir/rosidl_generator_c/riley_interfaces/msg/detail/battery_status__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_generator_c.dir/rosidl_generator_c/riley_interfaces/msg/detail/gyroscope__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_generator_c.dir/rosidl_generator_c/riley_interfaces/msg/detail/xbox_input__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_generator_c.dir/rosidl_generator_c/riley_interfaces/msg/detail/camera_image__functions.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_generator_c.dir/rosidl_generator_c/riley_interfaces/msg/detail/imu_sensor_data__functions.c.o[0m
+[ 16%] [32m[1mLinking C shared library libriley_interfaces__rosidl_generator_c.so[0m
+[ 16%] Built target riley_interfaces__rosidl_generator_c
+[ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_typesupport_cpp[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/riley_interfaces/msg/accelerometer__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/riley_interfaces/msg/camera_image__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/riley_interfaces/msg/battery_status__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/riley_interfaces/msg/imu_sensor_data__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/riley_interfaces/msg/gyroscope__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/riley_interfaces/msg/xbox_input__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/riley_interfaces/msg/detail/accelerometer__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/riley_interfaces/msg/detail/battery_status__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/riley_interfaces/msg/detail/camera_image__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/riley_interfaces/msg/detail/dds_fastrtps/accelerometer__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_typesupport_c[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/riley_interfaces/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/riley_interfaces/msg/detail/dds_fastrtps/camera_image__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/riley_interfaces/msg/accelerometer__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/riley_interfaces/msg/battery_status__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/riley_interfaces/msg/camera_image__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/riley_interfaces/msg/detail/gyroscope__type_support.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library libriley_interfaces__rosidl_typesupport_cpp.so[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/riley_interfaces/msg/gyroscope__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/riley_interfaces/msg/imu_sensor_data__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/riley_interfaces/msg/xbox_input__type_support.cpp.o[0m
+[ 47%] Built target riley_interfaces__rosidl_typesupport_cpp
+[ 49%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/riley_interfaces/msg/detail/dds_fastrtps/gyroscope__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/riley_interfaces/msg/detail/dds_fastrtps/imu_sensor_data__type_support.cpp.o[0m
+[ 52%] [32m[1mLinking CXX shared library libriley_interfaces__rosidl_typesupport_c.so[0m
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_typesupport_introspection_c[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/riley_interfaces/msg/detail/dds_fastrtps/xbox_input__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/riley_interfaces/msg/detail/accelerometer__type_support.c.o[0m
+[ 54%] Built target riley_interfaces__rosidl_typesupport_c
+[ 56%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/riley_interfaces/msg/detail/camera_image__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/riley_interfaces/msg/detail/battery_status__type_support.c.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/riley_interfaces/msg/detail/imu_sensor_data__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/riley_interfaces/msg/detail/xbox_input__type_support.cpp.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/riley_interfaces/msg/detail/gyroscope__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/riley_interfaces/msg/detail/imu_sensor_data__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/riley_interfaces/msg/detail/xbox_input__type_support.c.o[0m
+[ 66%] [32m[1mLinking C shared library libriley_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 66%] Built target riley_interfaces__rosidl_typesupport_introspection_c
+[ 67%] [32m[1mLinking CXX shared library libriley_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 69%] [32m[1mLinking CXX shared library libriley_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 69%] Built target riley_interfaces__rosidl_typesupport_introspection_cpp
+[ 69%] Built target riley_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/riley_interfaces/msg/detail/battery_status__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/riley_interfaces/msg/detail/camera_image__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/riley_interfaces/msg/detail/gyroscope__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/riley_interfaces/msg/detail/imu_sensor_data__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/riley_interfaces/msg/detail/accelerometer__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/riley_interfaces/msg/detail/xbox_input__type_support_c.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libriley_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 80%] Built target riley_interfaces__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target riley_interfaces[0m
+[ 80%] Built target riley_interfaces
+[35m[1mScanning dependencies of target riley_interfaces__py[0m
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target riley_interfaces__py
+[35m[1mScanning dependencies of target riley_interfaces__python[0m
+[ 85%] [32mBuilding C object CMakeFiles/riley_interfaces__python.dir/rosidl_generator_py/riley_interfaces/msg/_battery_status_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/riley_interfaces__python.dir/rosidl_generator_py/riley_interfaces/msg/_camera_image_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/riley_interfaces__python.dir/rosidl_generator_py/riley_interfaces/msg/_gyroscope_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/riley_interfaces__python.dir/rosidl_generator_py/riley_interfaces/msg/_imu_sensor_data_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/riley_interfaces__python.dir/rosidl_generator_py/riley_interfaces/msg/_accelerometer_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/riley_interfaces__python.dir/rosidl_generator_py/riley_interfaces/msg/_xbox_input_s.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/riley_interfaces/libriley_interfaces__python.so[0m
+[ 91%] Built target riley_interfaces__python
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target riley_interfaces__rosidl_typesupport_c__pyext[0m
+[ 95%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/riley_interfaces/_riley_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/riley_interfaces/_riley_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/riley_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/riley_interfaces/_riley_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/riley_interfaces/riley_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/riley_interfaces/riley_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/riley_interfaces/riley_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target riley_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target riley_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target riley_interfaces__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/ament_index/resource_index/rosidl_interfaces/riley_interfaces
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__type_support.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__struct.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__functions.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__functions.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__functions.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__struct.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__type_support.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__functions.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__functions.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__struct.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__functions.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__functions.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__type_support.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__functions.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__functions.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__type_support.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__functions.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__struct.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__struct.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__functions.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__type_support.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__struct.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__type_support.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__functions.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/accelerometer.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/camera_image.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/battery_status.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/gyroscope.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/xbox_input.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/imu_sensor_data.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/environment/library_path.sh
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/environment/library_path.dsv
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__rosidl_typesupport_introspection_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__type_support.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__type_support.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__rosidl_typesupport_introspection_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__type_support.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__rosidl_typesupport_introspection_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__rosidl_typesupport_introspection_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__rosidl_typesupport_introspection_c.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__type_support.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__type_support.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__type_support.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/accelerometer.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/xbox_input.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/battery_status.hpp
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__struct.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__builder.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__struct.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__builder.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__struct.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__traits.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__traits.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__builder.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__struct.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__struct.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__traits.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__traits.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__builder.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__builder.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__builder.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__traits.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__traits.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__struct.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/imu_sensor_data.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/gyroscope.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/camera_image.hpp
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg
+-- Up-to-date: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__type_support.cpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/xbox_input__type_support.cpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/imu_sensor_data__type_support.cpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/gyroscope__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__type_support.cpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/accelerometer__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/camera_image__type_support.cpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/include/riley_interfaces/msg/detail/battery_status__type_support.cpp
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/environment/pythonpath.sh
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/environment/pythonpath.dsv
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/__init__.py
+Compiling '/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/__init__.py'...
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_gyroscope_s.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_accelerometer_s.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_gyroscope.py
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_battery_status.py
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_battery_status_s.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_camera_image_s.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_imu_sensor_data.py
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_camera_image.py
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_accelerometer.py
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_imu_sensor_data_s.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_xbox_input.py
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/_xbox_input_s.c
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/msg/__init__.py
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/riley_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/riley_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/riley_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/riley_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/riley_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages/riley_interfaces/riley_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__python.so
+-- Set runtime path of "/home/student/rileyRobot_ws/install/riley_interfaces/lib/libriley_interfaces__python.so" to ""
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/Accelerometer.idl
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/BatteryStatus.idl
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/CameraImage.idl
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/Gyroscope.idl
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/IMUSensorData.idl
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/XboxInput.idl
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/Accelerometer.msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/BatteryStatus.msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/CameraImage.msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/Gyroscope.msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/IMUSensorData.msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/msg/XboxInput.msg
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/ament_index/resource_index/package_run_dependencies/riley_interfaces
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/ament_index/resource_index/parent_prefix_path/riley_interfaces
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/environment/path.sh
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/environment/path.dsv
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/local_setup.bash
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/local_setup.sh
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/local_setup.zsh
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/local_setup.dsv
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.dsv
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/ament_index/resource_index/packages/riley_interfaces
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfacesConfig.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/cmake/riley_interfacesConfig-version.cmake
+-- Installing: /home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.xml

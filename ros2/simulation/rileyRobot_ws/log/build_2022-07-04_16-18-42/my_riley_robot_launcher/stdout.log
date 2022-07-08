@@ -1,0 +1,138 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.88
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "5.0.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.7.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.7.0
+-- Looking for ignition-transport8 -- found version 8.2.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.6.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.7.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.6.0
+-- Looking for ignition-common3 -- found version 3.11.1
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.11.1
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.7.0
+-- Looking for ignition-fuel_tools4 -- found version 4.3.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.11.1
+-- Looking for ignition-msgs5 -- found version 5.6.0
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/student/rileyRobot_ws/build/my_riley_robot_launcher
+-- Install configuration: ""
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/multi_riley_robot_launch.py
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/my_riley_robot_bringup.launch.py
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/turtlebot3_state_publisher.launch.py
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/riley_robot_launch.py
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/start_world_launch.py
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/hlds_laser.launch.py
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//param
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//param/riley.yaml
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//Worlds
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//Worlds/riley_robot_empty.world
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//Worlds/my_world.sdf
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/ament_index/resource_index/package_run_dependencies/my_riley_robot_launcher
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/ament_index/resource_index/parent_prefix_path/my_riley_robot_launcher
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/ament_prefix_path.sh
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/ament_prefix_path.dsv
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/path.sh
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/path.dsv
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.bash
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.sh
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.zsh
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.dsv
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.dsv
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/ament_index/resource_index/packages/my_riley_robot_launcher
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/cmake/my_riley_robot_launcherConfig.cmake
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/cmake/my_riley_robot_launcherConfig-version.cmake
+-- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.xml

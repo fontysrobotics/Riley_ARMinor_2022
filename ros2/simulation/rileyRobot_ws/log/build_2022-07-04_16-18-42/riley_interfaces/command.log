@@ -1,0 +1,6 @@
+Invoking command in '/home/student/rileyRobot_ws/build/riley_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/rileyRobot_ws/src/riley_interfaces -DCMAKE_INSTALL_PREFIX=/home/student/rileyRobot_ws/install/riley_interfaces
+Invoked command in '/home/student/rileyRobot_ws/build/riley_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/rileyRobot_ws/src/riley_interfaces -DCMAKE_INSTALL_PREFIX=/home/student/rileyRobot_ws/install/riley_interfaces
+Invoking command in '/home/student/rileyRobot_ws/build/riley_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_interfaces -- -j12 -l12
+Invoked command in '/home/student/rileyRobot_ws/build/riley_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_interfaces -- -j12 -l12
+Invoking command in '/home/student/rileyRobot_ws/build/riley_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_interfaces
+Invoked command in '/home/student/rileyRobot_ws/build/riley_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_interfaces

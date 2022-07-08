@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- Title of the page -->
+        <title>RILey Environment Preparations</title>
+
+        <!-- Icon of the page -->
+        <link rel="icon" type="image/x-icon" href="Environment_Preparations_RILey/pictures/RILey.gif">
+
+        <!-- Making sure the page uses the full window -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Used CSS files -->
+        <link rel="stylesheet" href="Environment_Preparations_RILey/css/w3.css">
+        <link href="Environment_Preparations_RILey/css/all.css" rel="stylesheet">
+        <link href="Environment_Preparations_RILey/css/scrollToTopButton.css" rel="stylesheet">
+
+        <!-- Used Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+        <!-- Style Presets -->
+        <style>
+            body, h1, h2, h3, h4, h5, h6 {
+                font-family: "Lato", sans-serif
+            }
+
+            .w3-bar, h1, button {
+                font-family: "Montserrat", sans-serif
+            }
+
+            .fa-anchor, .fa-coffee {
+                font-size: 200px
+            }
+        </style>
+        <!-- End Style Presets -->
+
+        <!-- Include html Parts -->
+        <script>
+            function includeHTML() {
+                var z, i, elmnt, file, xhttp;
+                /*loop through a collection of all HTML elements:*/
+                z = document.getElementsByTagName("*");
+                for (i = 0; i < z.length; i++) {
+                    elmnt = z[i];
+                    /*search for elements with a certain atrribute:*/
+                    file = elmnt.getAttribute("w3-include-html");
+                    if (file) {
+                        /*make an HTTP request using the attribute value as the file name:*/
+                        xhttp = new XMLHttpRequest();
+                        xhttp.onreadystatechange = function () {
+                            if (this.readyState == 4) {
+                                if (this.status == 200) { elmnt.innerHTML = this.responseText; }
+                                if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
+                                /*remove the attribute, and call this function once more:*/
+                                elmnt.removeAttribute("w3-include-html");
+                                includeHTML();
+                            }
+                        }
+                        xhttp.open("GET", file, true);
+                        xhttp.send();
+                        /*exit the function:*/
+                        return;
+                    }
+                }
+            };
+        </script>
+        <!-- End Include html Parts -->
+    </head>
+
+    <body class="w3-dark-gray">
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-container w3-black w3-bar-block" style="width:20%">
+            <h3 class="w3-bar-item">Menu</h3>
+
+            <!-- Sidebar Home -->
+            <button class="w3-bar-item w3-button tablink w3-red" onclick="openTab(event,'Home')">Home</button>
+            <!-- End Sidebar Home -->
+
+            <!-- Sidebar Photo Gallery -->
+            <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'PhotoGallery')">Photo Gallery</button>
+            <!-- End Sidebar Photo Gallery -->
+            
+            <!-- Sidebar RILey Version 1 -->
+            <div>
+                <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('accordion1')">
+                    <!-- Button to open or close the accordion -->
+                    <i class="fa fa-angle-down"></i> RILey Version 1
+                    <!-- Name of accordion -->
+                </button>
+                <div id="accordion1" class="w3-hide w3-black w3-card">
+                    <!-- Buttons to accordion -->
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Electrical')">Electrical</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'MechanicalV1')">Mechanical</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'OrderListV1')">Order List</button>
+                    
+                </div>
+            </div>
+            <!-- End Sidebar RILey Version 1 -->
+
+            <!-- Sidebar RILey Version 2 -->
+            <div>
+                <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('accordion2')">
+                    <!-- Button to open or close the accordion -->
+                    <i class="fa fa-angle-down"></i> RILey Version 2 
+                    <!-- Name of accordion -->
+                </button>
+                <div id="accordion2" class="w3-hide w3-black w3-card">
+                    <!-- Buttons to accordion -->
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Second')">Second</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'OrderListV2')">Order List</button>
+                </div>
+            </div>
+            <!-- End Sidebar RILey Version 2 -->
+
+            <!-- Sidebar RILey Version 2 -->
+            <div>
+                <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('accordion3')">
+                    <!-- Button to open or close the accordion -->
+                    <i class="fa fa-angle-down"></i> Software Documentation
+                    <!-- Name of accordion -->
+                </button>
+                <div id="accordion3" class="w3-hide w3-black w3-card">
+                    <!-- Buttons to accordion -->
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'RaspberryInstallation')">Raspberry Installation Guide</button>
+                    <!-- <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Second')">Second</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Second')">Second</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Second')">Second</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Second')">Second</button> -->
+                </div>
+            </div>
+            <!-- End Sidebar RILey Version 2 -->
+
+            <!-- Sidebar RILey Teams -->
+            <div>
+                <button class="w3-button w3-block w3-left-align" onclick="myAccFunc('accordion3')">
+                    <!-- Button to open or close the accordion -->
+                    <i class="fa fa-angle-down"></i> RILey Team
+                    <!-- Name of accordion -->
+                </button>
+                <div id="accordion3" class="w3-hide w3-black w3-card">
+                    <!-- Buttons to accordion -->
+                    <button class="w3-bar-item w3-button tablink" onclick="openTab(event,'Team0')">Team 0</button>
+                </div>
+            </div>
+            <!-- End Sidebar RILey Team -->
+
+        </div>
+        <!-- End Sidebar -->
+
+        <!-- Page Content -->
+        <div id="home" style="margin-left:20%">
+
+            <!-- Scroll to top button -->
+            <button onclick="topFunction()" id="scrollBtn" title="Go to top">Top</button>
+            <!-- End Scroll to top button -->
+
+            <!-- Home Tab -->
+            <div id="Home" class="w3-container part w3-text-light-gray">
+                <div w3-include-html="homepage.html"></div>
+            </div>
+            <!-- End Home Tab -->
+
+            <!-- RILey Version 1 -->
+            <div>
+                <!-- Photo Gallery Tab -->
+                <div id="PhotoGallery" class="w3-container part" style="display:none">
+                    <div w3-include-html="photoGallery.html"></div>
+                </div>
+                <!-- End Photo Gallery Tab -->
+
+                <!-- Electrical Tab -->
+                <div id="Electrical" class="w3-container part" style="display:none">
+                    <div w3-include-html="electrical.html"></div>
+                </div>
+                <!-- End Electrical Tab -->
+
+                <!-- Mechanical Tab -->
+                <div id="MechanicalV1" class="w3-container part" style="display:none">
+                    <div w3-include-html="mechanicalV1.html"></div>
+                </div>
+                <!-- End Mechanical Tab -->
+
+                <!-- Order List V1 Tab -->
+                <div id="OrderListV1" class="w3-container part" style="display:none">
+                    <div w3-include-html="orderListV1.html"></div>
+                </div>
+                <!-- End Order List V1 Tab -->
+            </div>
+            <!-- End RILey Version 1 -->
+
+            <!-- RILey Version 2 -->
+            <div>
+                <!-- Second Tab -->
+                <div id="Second" class="w3-container part" style="display:none">
+                    <div w3-include-html="second.html"></div>
+                </div>
+                <!-- End Second Tab -->
+
+                <!-- Order List V2 Tab -->
+                <div id="OrderListV2" class="w3-container part" style="display:none">
+                    <div w3-include-html="orderListV2.html"></div>
+                </div>
+                <!-- End Order List V2 Tab -->
+            </div>
+            <!-- End RILey Version 2 -->
+            
+            <!-- Software Documentation -->
+            <div>
+                <!-- Second Tab -->
+                <div id="RaspberryInstallation" class="w3-container part" style="display:none">
+                    <div w3-include-html="raspberryinstall.html"></div>
+                </div>
+                <!-- End Second Tab -->
+            </div>
+            <!-- End Software Documentation -->
+
+            <!-- The RILey Team 0 Tab -->
+            <div id="Team0" class="w3-container part" style="display:none">
+                <div w3-include-html="team0.html"></div>
+            </div>
+            <!-- End The RILey Team 0 Tab -->
+
+            <!-- Footer -->
+            <footer class="w3-container w3-padding-64 w3-center w3-black">
+                <button class="w3-button w3-light-grey tablink" onclick="openTab(event,'Home')" href="#home"><i
+                        class="fa-solid fa-home w3-margin-right"></i>Home</button>
+                <div class="w3-xlarge w3-padding-32">
+                    <!-- <i class="fa-brands fa-linkedin-in w3-hover-opacity"></i> -->
+                </div>
+                <p>© Copyright 2022, RILey Inc</p>
+                <p class="w3-tiny w3-right-align">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+            </footer>
+            <!-- End Footer -->
+
+        </div>
+        <!-- End Page Content -->
+
+
+        <!-- Scrips -->
+        <div>
+            <!-- Accordion Menu -->
+            <script>
+                function myAccFunc(accordion) {
+                    var x = document.getElementById(accordion);
+                    if (x.className.indexOf("w3-show") == -1) {
+                        x.className += " w3-show";
+                        x.previousElementSibling.className += " w3-green";
+                    } else {
+                        x.className = x.className.replace(" w3-show", "");
+                        x.previousElementSibling.className =
+                            x.previousElementSibling.className.replace(" w3-green", "");
+                    }
+                }
+            </script>
+            <!-- End Accordion Menu -->
+
+            <!-- Tab Control -->
+            <script>
+                function openTab(evt, partName) {
+                    var i, x, tablinks;
+                    x = document.getElementsByClassName("part");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablink");
+                    for (i = 0; i < x.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+                    }
+                    document.getElementById(partName).style.display = "block";
+                    evt.currentTarget.className += " w3-red";
+                    topFunction()
+                }
+            </script>
+            <!-- End Tab Control -->
+
+            <script>
+                //Get the button:
+                scrollButton = document.getElementById("scrollBtn");
+
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        scrollButton.style.display = "block";
+                    } else {
+                        scrollButton.style.display = "none";
+                    }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                }
+            </script>
+
+            <!-- Code Coloring -->
+            <script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
+            <script>w3CodeColor()</script>
+            <!-- End Code Coloring -->
+
+            <!-- Image gallery handling -->
+            <script>
+                function onClick(element) {
+                    document.getElementById("imgProgress").src = element.src;
+                    document.getElementById("modalProgress").style.display = "block";
+                    var captionText = document.getElementById("caption");
+                    captionText.innerHTML = element.alt;
+                }
+            </script>
+            <!-- End Image gallery handling -->
+
+            <!-- Includes -->
+            <script>
+                includeHTML();
+            </script>
+            <!-- End Includes -->
+        </div>
+        <!-- End Scripts -->
+
+    </body>
+
+</html>

@@ -1,0 +1,2 @@
+int64 dist_value
+int64 robot_id

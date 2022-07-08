@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title of the page -->
+        <title>RILey Environment Preparations</title>
+        
+        <!-- Used CSS files -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Environment_Preparations_RILey/css/w3.css">
+        <link href="Environment_Preparations_RILey/css/all.css" rel="stylesheet">
+
+        <!-- Used Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+        <!-- Style Presets -->
+        <style>
+            body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+            .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+            .fa-anchor,.fa-coffee {font-size:200px}
+        </style>
+        <!-- End Style Presets -->
+    </head>
+
+    <!-- Page Content -->
+    <body class="w3-dark-gray">
+        <!-- Header -->
+        <header id="home" class="w3-container w3-red w3-center" style="padding:128px 16px">
+            <h1 class="w3-margin w3-jumbo">RILey Robot Mechanical assembly</h1>
+            <!-- <p class="w3-xlarge">some text</p> -->
+        </header>
+        <!-- End Header -->
+        
+        <div class="w3-padding w3-container w3-padding-64 w3-center">
+
+            <p>Here we are going to assemble the RILey robot in a particular order. It is recommended to follow this order to avoid issues with assembling the robot.</p>
+                <!-- Step1 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="First Assembly step">
+                    <p>First we use 2x M5x30mm screws to screw the middlepart to the tailpart.</p>
+                <!-- Step2 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Second Assembly step">
+                    <p>Put the stepper motors in the middlepart and use M3x8mm screws to secure them in place.</p>
+                <!-- Step3 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Third Assembly step">
+                    <p>Make sure the Stepper Drivers and IMU are facing the correct orientation in order to make the electrical connections right.</p>
+                <!-- Step4 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step4.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Fourth Assembly step">
+                    <p>Place the PCB on top of the middlepart(pillars) and secure it with 4x M3x10mm screws.</p>
+                <!-- Step5 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step5.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Fifth Assembly step">
+                    <p>Slide the axel hubs onto the stepper motors shaft and secure it with using an M3 set screw. Make sure the set screw bottoms out on the flat surface of the stepper motor shaft.</p>
+                <!-- Step6 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step6.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Sixth Assembly step">    
+                    <p>Mount the TimeOfFlightMount with an M3x12mm screw and nut on the bottom hole on the front of the middlepart</p>
+                <!-- Step7 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step7.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Seventh Assembly step"> 
+                    <p>Secure the Time Of Flight sensor with 2x M3x8mm screws and nuts on the TimeOfFlightMount</p>
+                <!-- Step8 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step8.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Eighth Assembly step"> 
+                    <p>Mount the CameraMount on the upper hole on the front of the middlepart with a M3x12mm screw and nut</p>
+                <!-- Step9 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step9.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="ninth Assembly step">
+                    <p>Secure the Camera to the CameraMount with 4x M2x6mm screws and nuts. Make sure the flat cable of the camera point to the top of the robot.</p>
+                <!-- Step10 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step10.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Tenth Assembly step">
+                    <p>Grab the sheet metal 3rdFloor and use 4x spacers + 4x M2.5x12mm screws and nuts the secure the buckconverter.</p>
+                <!-- Step11 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step11.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Eleventh Assembly step">    
+                    <p>Put the Raspberry Pi and lidar onto the sheet metal using 4x spacers + 4x M2x20mm screws and nuts. Before doing this you have to place the 3rdFloor loose on the robot (see next step). Then first attach the Camera flat camera into the Raspberry Pi before securing the lidar on top of it.</p>
+                <!-- Step12 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step12.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="twelfth Assembly step">    
+                    <p>Now secure the 3rdFloor with 4x M3x10mm screws and nuts to the middlepart. You have to slide the 3rdFloor under the PCB from the back of the robot to successfully achieve this step.</p>
+                <!-- Step13 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step13.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Thirteenth Assembly step">    
+                    <p>Slide the battery packs into the robot. Make sure the cable face the to the front of the robot these need to stick out of the 2 big holes into the back of the middlepart of the robot. Then put on the BatteryFrontCover with 2x M2x10mm and 3x M2x16mm screws</p>
+                <!-- Step14 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step14.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Fourteenth Assembly step">    
+                    <p>Put the left and right BatteryBackCovers on with either 1x M2x10mm and 1x M2x16mm screw</p>
+                <!-- Step15 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step15.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Fifteenth Assembly step">    
+                    <p>Secure the BackWheel on the tailpart with 1x M6x45mm screw and nut</p>
+                <!-- Step16 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step16.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Sixteenth Assembly step">    
+                    <p>As last mount the left and right buggy wheels with either 1x M10 nut on the axel hubs.</p>
+                <!-- Step17 -->
+                    <img src="Environment_Preparations_RILey/pictures/LEGO_Assembly/Step17.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+                    alt="Seventeenth Assembly step">    
+                    <p>Finished!!!</p>
+        </div> 
+
+        
+
+    </body>
+    <!-- End Page Content -->
+</html>

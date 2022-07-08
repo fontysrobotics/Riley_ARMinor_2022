@@ -1,0 +1,32 @@
+[0.057s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_launcher -- -j12 -l12
+[0.397s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_launcher -- -j12 -l12
+[0.443s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_launcher
+[0.519s] -- Install configuration: ""
+[0.522s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch
+[0.522s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/multi_riley_robot_launch.py
+[0.523s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/my_riley_robot_bringup.launch.py
+[0.523s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/turtlebot3_state_publisher.launch.py
+[0.523s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/riley_robot_launch.py
+[0.523s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/start_world_launch.py
+[0.524s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/hlds_laser.launch.py
+[0.524s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//param
+[0.524s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//param/riley.yaml
+[0.525s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//Worlds
+[0.526s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//Worlds/riley_robot_empty.world
+[0.526s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//Worlds/my_world.sdf
+[0.526s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/ament_index/resource_index/package_run_dependencies/my_riley_robot_launcher
+[0.526s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/ament_index/resource_index/parent_prefix_path/my_riley_robot_launcher
+[0.527s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/ament_prefix_path.sh
+[0.527s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/ament_prefix_path.dsv
+[0.528s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/path.sh
+[0.528s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/path.dsv
+[0.529s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.bash
+[0.529s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.sh
+[0.529s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.zsh
+[0.529s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.dsv
+[0.530s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.dsv
+[0.530s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/ament_index/resource_index/packages/my_riley_robot_launcher
+[0.530s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/cmake/my_riley_robot_launcherConfig.cmake
+[0.531s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/cmake/my_riley_robot_launcherConfig-version.cmake
+[0.532s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.xml
+[0.544s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_launcher

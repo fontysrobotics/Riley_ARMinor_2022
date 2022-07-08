@@ -1,0 +1,22 @@
+[1.121s] Invoking command in '/home/student/rileyRobot_ws/src/riley': PYTHONPATH=/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/riley build --build-base /home/student/rileyRobot_ws/build/riley/build install --prefix /home/student/rileyRobot_ws/install/riley --record /home/student/rileyRobot_ws/build/riley/install.log --single-version-externally-managed
+[1.413s] running egg_info
+[1.414s] writing ../../build/riley/riley.egg-info/PKG-INFO
+[1.414s] writing dependency_links to ../../build/riley/riley.egg-info/dependency_links.txt
+[1.414s] writing entry points to ../../build/riley/riley.egg-info/entry_points.txt
+[1.415s] writing requirements to ../../build/riley/riley.egg-info/requires.txt
+[1.415s] writing top-level names to ../../build/riley/riley.egg-info/top_level.txt
+[1.457s] reading manifest file '../../build/riley/riley.egg-info/SOURCES.txt'
+[1.459s] writing manifest file '../../build/riley/riley.egg-info/SOURCES.txt'
+[1.459s] running build
+[1.459s] running build_py
+[1.459s] running install
+[1.460s] running install_lib
+[1.462s] running install_data
+[1.463s] copying models/rileyWorld/model.sdf -> /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld
+[1.464s] copying models/rileyWorld/meshes/maze.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld/meshes
+[1.466s] running install_egg_info
+[1.468s] removing '/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley-0.0.0-py3.8.egg-info' (and everything under it)
+[1.468s] Copying ../../build/riley/riley.egg-info to /home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley-0.0.0-py3.8.egg-info
+[1.469s] running install_scripts
+[1.489s] writing list of installed files to '/home/student/rileyRobot_ws/build/riley/install.log'
+[1.513s] Invoked command in '/home/student/rileyRobot_ws/src/riley' returned '0': PYTHONPATH=/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/riley build --build-base /home/student/rileyRobot_ws/build/riley/build install --prefix /home/student/rileyRobot_ws/install/riley --record /home/student/rileyRobot_ws/build/riley/install.log --single-version-externally-managed

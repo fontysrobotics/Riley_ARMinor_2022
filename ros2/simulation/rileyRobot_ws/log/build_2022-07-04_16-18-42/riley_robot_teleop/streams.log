@@ -1,0 +1,46 @@
+[0.350s] Invoking command in '/home/student/rileyRobot_ws/build/riley_robot_teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/rileyRobot_ws/src/riley_robot_teleop -DCMAKE_INSTALL_PREFIX=/home/student/rileyRobot_ws/install/riley_robot_teleop
+[0.415s] -- The C compiler identification is GNU 9.4.0
+[0.491s] -- The CXX compiler identification is GNU 9.4.0
+[0.497s] -- Check for working C compiler: /usr/bin/cc
+[0.580s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.581s] -- Detecting C compiler ABI info
+[0.665s] -- Detecting C compiler ABI info - done
+[0.680s] -- Detecting C compile features
+[0.681s] -- Detecting C compile features - done
+[0.684s] -- Check for working CXX compiler: /usr/bin/c++
+[0.778s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.780s] -- Detecting CXX compiler ABI info
+[0.879s] -- Detecting CXX compiler ABI info - done
+[0.895s] -- Detecting CXX compile features
+[0.897s] -- Detecting CXX compile features - done
+[0.906s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.932s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.932s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.222s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.318s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.320s] -- Added test 'lint_cmake' to check CMake code style
+[1.321s] -- Added test 'xmllint' to check XML markup files
+[1.324s] -- Configuring done
+[1.326s] -- Generating done
+[1.327s] -- Build files have been written to: /home/student/rileyRobot_ws/build/riley_robot_teleop
+[1.332s] Invoked command in '/home/student/rileyRobot_ws/build/riley_robot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/rileyRobot_ws/src/riley_robot_teleop -DCMAKE_INSTALL_PREFIX=/home/student/rileyRobot_ws/install/riley_robot_teleop
+[1.337s] Invoking command in '/home/student/rileyRobot_ws/build/riley_robot_teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_robot_teleop -- -j12 -l12
+[1.385s] Invoked command in '/home/student/rileyRobot_ws/build/riley_robot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_robot_teleop -- -j12 -l12
+[1.412s] Invoking command in '/home/student/rileyRobot_ws/build/riley_robot_teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_robot_teleop
+[1.423s] -- Install configuration: ""
+[1.423s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/ament_index/resource_index/package_run_dependencies/riley_robot_teleop
+[1.423s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/ament_index/resource_index/parent_prefix_path/riley_robot_teleop
+[1.423s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/environment/ament_prefix_path.sh
+[1.424s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/environment/ament_prefix_path.dsv
+[1.424s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/environment/path.sh
+[1.424s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/environment/path.dsv
+[1.424s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/local_setup.bash
+[1.424s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/local_setup.sh
+[1.424s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/local_setup.zsh
+[1.425s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/local_setup.dsv
+[1.425s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.dsv
+[1.425s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/ament_index/resource_index/packages/riley_robot_teleop
+[1.425s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/cmake/riley_robot_teleopConfig.cmake
+[1.425s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/cmake/riley_robot_teleopConfig-version.cmake
+[1.425s] -- Installing: /home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.xml
+[1.429s] Invoked command in '/home/student/rileyRobot_ws/build/riley_robot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_robot_teleop

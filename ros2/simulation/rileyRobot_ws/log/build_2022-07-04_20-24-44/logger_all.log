@@ -1,0 +1,564 @@
+[0.353s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.353s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9a16f2f0a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9a16f2f0a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9a16f2f5e0>)
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.367s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.367s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/rileyRobot_ws'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_description) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_description) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_description) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_description) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_description) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_description) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_description) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_description) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_riley_robot_description' with type 'ros.ament_cmake' and name 'my_riley_robot_description'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_launcher) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_launcher) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_launcher) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_launcher) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_launcher) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_launcher) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_launcher) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_launcher) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_launcher) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_riley_robot_launcher' with type 'ros.ament_cmake' and name 'my_riley_robot_launcher'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_nav2) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_nav2) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_nav2) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_nav2) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_nav2) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_nav2) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_nav2) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_riley_robot_nav2) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_riley_robot_nav2' with type 'ros.ament_cmake' and name 'my_riley_robot_nav2'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/riley' with type 'ros.ament_python' and name 'riley'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_interfaces) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_interfaces) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_interfaces) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_interfaces) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_interfaces) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_interfaces) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_interfaces) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_interfaces) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/riley_interfaces' with type 'ros.ament_cmake' and name 'riley_interfaces'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/riley_robot_bringup': Error(s) in package 'src/riley_robot_bringup/package.xml':
+The manifest contains invalid XML:
+no element found: line 1, column 0
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extension 'python'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/riley_robot_bringup' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup) by extension 'python_setup_py'
+[0.791s] ERROR:colcon.colcon_core.package_identification:Exception in package identification extension 'python_setup_py' in 'src/riley_robot_bringup': Command '['/usr/bin/python3', '-c', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    'setup.py', script_args=('--dry-run',), stop_after='config');skip_keys = ('cmdclass', 'distclass', 'ext_modules', 'metadata');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith('_') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data['metadata'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in ('license_files', 'provides_extras')};sys.stdout.buffer.write(repr(data).encode('utf-8'))"]' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/package_identification/__init__.py", line 143, in _identify
+    retval = extension.identify(_reused_descriptor_instance)
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 48, in identify
+    config = get_setup_information(setup_py)
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information
+    _setup_information_cache[hashable_env] = _get_setup_information(
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 281, in _get_setup_information
+    result = subprocess.run(
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-c', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    'setup.py', script_args=('--dry-run',), stop_after='config');skip_keys = ('cmdclass', 'distclass', 'ext_modules', 'metadata');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith('_') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data['metadata'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in ('license_files', 'provides_extras')};sys.stdout.buffer.write(repr(data).encode('utf-8'))"]' returned non-zero exit status 1.
+
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extension 'ros'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extensions ['cmake', 'python']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extension 'cmake'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extension 'python'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extensions ['python_setup_py']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/resource) by extension 'python_setup_py'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extension 'ros'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extensions ['cmake', 'python']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extension 'cmake'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extension 'python'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extensions ['python_setup_py']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/riley_robot_bringup) by extension 'python_setup_py'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extension 'ignore_ament_install'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extensions ['colcon_pkg']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extension 'colcon_pkg'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extensions ['colcon_meta']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extension 'ros'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extensions ['cmake', 'python']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extension 'cmake'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extension 'python'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extensions ['python_setup_py']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_bringup/test) by extension 'python_setup_py'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_teleop) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_teleop) by extension 'ignore_ament_install'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_teleop) by extensions ['colcon_pkg']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_teleop) by extension 'colcon_pkg'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_teleop) by extensions ['colcon_meta']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_teleop) by extension 'colcon_meta'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_teleop) by extensions ['ros']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/riley_robot_teleop) by extension 'ros'
+[0.799s] DEBUG:colcon.colcon_core.package_identification:Package 'src/riley_robot_teleop' with type 'ros.ament_cmake' and name 'riley_robot_teleop'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/xbox_input) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/xbox_input) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/xbox_input) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/xbox_input) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/xbox_input) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/xbox_input) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/xbox_input) by extension 'colcon_meta'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/xbox_input) by extensions ['ros']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/xbox_input) by extension 'ros'
+[0.801s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xbox_input' with type 'ros.ament_python' and name 'xbox_input'
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.837s] DEBUG:colcon.colcon_core.verb:Building package 'my_riley_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/rileyRobot_ws/build/my_riley_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/rileyRobot_ws/install/my_riley_robot_description', 'merge_install': False, 'path': '/home/student/rileyRobot_ws/src/my_riley_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_launcher' build argument 'cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_launcher' build argument 'cmake_target' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_launcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_launcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_launcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_launcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_launcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_launcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_launcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.838s] DEBUG:colcon.colcon_core.verb:Building package 'my_riley_robot_launcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/rileyRobot_ws/build/my_riley_robot_launcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/rileyRobot_ws/install/my_riley_robot_launcher', 'merge_install': False, 'path': '/home/student/rileyRobot_ws/src/my_riley_robot_launcher', 'symlink_install': False, 'test_result_base': None}
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_nav2' build argument 'cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_nav2' build argument 'cmake_target' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'my_riley_robot_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.840s] DEBUG:colcon.colcon_core.verb:Building package 'my_riley_robot_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/rileyRobot_ws/build/my_riley_robot_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/rileyRobot_ws/install/my_riley_robot_nav2', 'merge_install': False, 'path': '/home/student/rileyRobot_ws/src/my_riley_robot_nav2', 'symlink_install': False, 'test_result_base': None}
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'riley' build argument 'cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'riley' build argument 'cmake_target' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'riley' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'riley' build argument 'cmake_clean_cache' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'riley' build argument 'cmake_clean_first' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'riley' build argument 'cmake_force_configure' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'riley' build argument 'ament_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'riley' build argument 'catkin_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'riley' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.841s] DEBUG:colcon.colcon_core.verb:Building package 'riley' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/rileyRobot_ws/build/riley', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/rileyRobot_ws/install/riley', 'merge_install': False, 'path': '/home/student/rileyRobot_ws/src/riley', 'symlink_install': False, 'test_result_base': None}
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'riley_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'riley_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'riley_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'riley_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'riley_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'riley_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'riley_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'riley_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'riley_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.843s] DEBUG:colcon.colcon_core.verb:Building package 'riley_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/rileyRobot_ws/build/riley_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/rileyRobot_ws/install/riley_interfaces', 'merge_install': False, 'path': '/home/student/rileyRobot_ws/src/riley_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'riley_robot_teleop' build argument 'cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'riley_robot_teleop' build argument 'cmake_target' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'riley_robot_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'riley_robot_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'riley_robot_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'riley_robot_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'riley_robot_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'riley_robot_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'riley_robot_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.844s] DEBUG:colcon.colcon_core.verb:Building package 'riley_robot_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/rileyRobot_ws/build/riley_robot_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/rileyRobot_ws/install/riley_robot_teleop', 'merge_install': False, 'path': '/home/student/rileyRobot_ws/src/riley_robot_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'xbox_input' build argument 'cmake_args' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'xbox_input' build argument 'cmake_target' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'xbox_input' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'xbox_input' build argument 'cmake_clean_cache' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'xbox_input' build argument 'cmake_clean_first' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'xbox_input' build argument 'cmake_force_configure' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'xbox_input' build argument 'ament_cmake_args' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'xbox_input' build argument 'catkin_cmake_args' from command line to 'None'
+[0.846s] Level 5:colcon.colcon_core.verb:set package 'xbox_input' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.846s] DEBUG:colcon.colcon_core.verb:Building package 'xbox_input' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/rileyRobot_ws/build/xbox_input', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/rileyRobot_ws/install/xbox_input', 'merge_install': False, 'path': '/home/student/rileyRobot_ws/src/xbox_input', 'symlink_install': False, 'test_result_base': None}
+[0.852s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.855s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/rileyRobot_ws/src/riley_interfaces' with build type 'ament_cmake'
+[0.855s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/rileyRobot_ws/src/riley_interfaces'
+[0.866s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.872s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/rileyRobot_ws/src/my_riley_robot_description' with build type 'ament_cmake'
+[0.872s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/rileyRobot_ws/src/my_riley_robot_description'
+[0.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.880s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/rileyRobot_ws/src/my_riley_robot_launcher' with build type 'ament_cmake'
+[0.880s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/rileyRobot_ws/src/my_riley_robot_launcher'
+[0.881s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.881s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.887s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/rileyRobot_ws/src/my_riley_robot_nav2' with build type 'ament_cmake'
+[0.888s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/rileyRobot_ws/src/my_riley_robot_nav2'
+[0.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.895s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/rileyRobot_ws/src/riley' with build type 'ament_python'
+[0.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley', 'ament_prefix_path')
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley/share/riley/hook/ament_prefix_path.ps1'
+[0.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley/share/riley/hook/ament_prefix_path.dsv'
+[0.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley/share/riley/hook/ament_prefix_path.sh'
+[0.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.903s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.909s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/rileyRobot_ws/src/riley_robot_teleop' with build type 'ament_cmake'
+[0.909s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/rileyRobot_ws/src/riley_robot_teleop'
+[0.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/riley_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_interfaces -- -j12 -l12
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_description -- -j12 -l12
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_launcher -- -j12 -l12
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_nav2 -- -j12 -l12
+[1.299s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/rileyRobot_ws/src/riley'
+[1.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/riley_robot_teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_robot_teleop -- -j12 -l12
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_description -- -j12 -l12
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/riley_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_interfaces -- -j12 -l12
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_launcher -- -j12 -l12
+[1.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_nav2 -- -j12 -l12
+[1.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_description
+[1.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_nav2
+[1.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_launcher
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/riley_robot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_robot_teleop -- -j12 -l12
+[1.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_riley_robot_nav2)
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2' for CMake module files
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2' for CMake config files
+[1.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_riley_robot_nav2', 'cmake_prefix_path')
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/hook/cmake_prefix_path.ps1'
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/hook/cmake_prefix_path.dsv'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/hook/cmake_prefix_path.sh'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/bin'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/lib/pkgconfig/my_riley_robot_nav2.pc'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/lib/python3.8/site-packages'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.ps1'
+[1.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.dsv'
+[1.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.sh'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.bash'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.zsh'
+[1.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_nav2
+[1.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/colcon-core/packages/my_riley_robot_nav2)
+[1.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_riley_robot_launcher)
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher' for CMake module files
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_launcher
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher' for CMake config files
+[1.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_riley_robot_launcher', 'cmake_prefix_path')
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/hook/cmake_prefix_path.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/hook/cmake_prefix_path.dsv'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/hook/cmake_prefix_path.sh'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/bin'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/lib/pkgconfig/my_riley_robot_launcher.pc'
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/lib/python3.8/site-packages'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.ps1'
+[1.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.dsv'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.sh'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.bash'
+[1.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.zsh'
+[1.451s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/colcon-core/packages/my_riley_robot_launcher)
+[1.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/riley_robot_teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_robot_teleop
+[1.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_riley_robot_description)
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description' for CMake module files
+[1.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_description
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description' for CMake config files
+[1.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_riley_robot_description', 'cmake_prefix_path')
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/hook/cmake_prefix_path.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/hook/cmake_prefix_path.dsv'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/hook/cmake_prefix_path.sh'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description/lib'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description/bin'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description/lib/pkgconfig/my_riley_robot_description.pc'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description/lib/python3.8/site-packages'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.sh'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.bash'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.zsh'
+[1.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/my_riley_robot_description/share/colcon-core/packages/my_riley_robot_description)
+[1.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_riley_robot_nav2)
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2' for CMake module files
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2' for CMake config files
+[1.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_riley_robot_nav2', 'cmake_prefix_path')
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/hook/cmake_prefix_path.ps1'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/hook/cmake_prefix_path.dsv'
+[1.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/hook/cmake_prefix_path.sh'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/bin'
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/lib/pkgconfig/my_riley_robot_nav2.pc'
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/lib/python3.8/site-packages'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.ps1'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.dsv'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.bash'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.zsh'
+[1.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/colcon-core/packages/my_riley_robot_nav2)
+[1.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(riley_robot_teleop)
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop' for CMake module files
+[1.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/riley_robot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_robot_teleop
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop' for CMake config files
+[1.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley_robot_teleop', 'cmake_prefix_path')
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/hook/cmake_prefix_path.ps1'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/hook/cmake_prefix_path.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/hook/cmake_prefix_path.sh'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop/bin'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop/lib/pkgconfig/riley_robot_teleop.pc'
+[1.499s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop/lib/python3.8/site-packages'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.ps1'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.dsv'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.sh'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.bash'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.zsh'
+[1.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/riley_robot_teleop/share/colcon-core/packages/riley_robot_teleop)
+[1.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/build/riley_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_interfaces
+[1.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_riley_robot_launcher)
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher' for CMake module files
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher' for CMake config files
+[1.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_riley_robot_launcher', 'cmake_prefix_path')
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/hook/cmake_prefix_path.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/hook/cmake_prefix_path.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/hook/cmake_prefix_path.sh'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/bin'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/lib/pkgconfig/my_riley_robot_launcher.pc'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/lib/python3.8/site-packages'
+[1.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.ps1'
+[1.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.dsv'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.sh'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.bash'
+[1.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.zsh'
+[1.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/colcon-core/packages/my_riley_robot_launcher)
+[1.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_riley_robot_description)
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description' for CMake module files
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description' for CMake config files
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_riley_robot_description', 'cmake_prefix_path')
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/hook/cmake_prefix_path.ps1'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/hook/cmake_prefix_path.dsv'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/hook/cmake_prefix_path.sh'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description/lib'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description/bin'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description/lib/pkgconfig/my_riley_robot_description.pc'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/my_riley_robot_description/lib/python3.8/site-packages'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.ps1'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.dsv'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.sh'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.bash'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.zsh'
+[1.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/my_riley_robot_description/share/colcon-core/packages/my_riley_robot_description)
+[1.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(riley_robot_teleop)
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop' for CMake module files
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop' for CMake config files
+[1.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley_robot_teleop', 'cmake_prefix_path')
+[1.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/hook/cmake_prefix_path.ps1'
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/hook/cmake_prefix_path.dsv'
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/hook/cmake_prefix_path.sh'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop/bin'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop/lib/pkgconfig/riley_robot_teleop.pc'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_robot_teleop/lib/python3.8/site-packages'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.ps1'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.dsv'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.sh'
+[1.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.bash'
+[1.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.zsh'
+[1.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/riley_robot_teleop/share/colcon-core/packages/riley_robot_teleop)
+[1.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(riley_interfaces)
+[1.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/build/riley_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_interfaces
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces' for CMake module files
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces' for CMake config files
+[1.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley_interfaces', 'cmake_prefix_path')
+[1.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/cmake_prefix_path.ps1'
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/cmake_prefix_path.dsv'
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/cmake_prefix_path.sh'
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces/lib'
+[1.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley_interfaces', 'ld_library_path_lib')
+[1.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/ld_library_path_lib.ps1'
+[1.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/ld_library_path_lib.dsv'
+[1.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/ld_library_path_lib.sh'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces/bin'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces/lib/pkgconfig/riley_interfaces.pc'
+[1.612s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages'
+[1.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley_interfaces', 'pythonpath')
+[1.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/pythonpath.ps1'
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/pythonpath.dsv'
+[1.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/pythonpath.sh'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.ps1'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.dsv'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.sh'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.bash'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.zsh'
+[1.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/riley_interfaces/share/colcon-core/packages/riley_interfaces)
+[1.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(riley_interfaces)
+[1.775s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces' for CMake module files
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces' for CMake config files
+[1.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley_interfaces', 'cmake_prefix_path')
+[1.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/cmake_prefix_path.ps1'
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/cmake_prefix_path.dsv'
+[1.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/cmake_prefix_path.sh'
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces/lib'
+[1.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley_interfaces', 'ld_library_path_lib')
+[1.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/ld_library_path_lib.ps1'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/ld_library_path_lib.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/ld_library_path_lib.sh'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces/bin'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces/lib/pkgconfig/riley_interfaces.pc'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages'
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley_interfaces', 'pythonpath')
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/pythonpath.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/pythonpath.dsv'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/hook/pythonpath.sh'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.ps1'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.dsv'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.sh'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.bash'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley_interfaces/share/riley_interfaces/package.zsh'
+[1.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/riley_interfaces/share/colcon-core/packages/riley_interfaces)
+[1.788s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/student/rileyRobot_ws/src/xbox_input' with build type 'ament_python'
+[1.788s] Level 1:colcon.colcon_core.shell:create_environment_hook('xbox_input', 'ament_prefix_path')
+[1.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/hook/ament_prefix_path.ps1'
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/hook/ament_prefix_path.dsv'
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/hook/ament_prefix_path.sh'
+[1.793s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.793s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.124s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/student/rileyRobot_ws/src/xbox_input'
+[2.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.126s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/src/riley': PYTHONPATH=/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/riley build --build-base /home/student/rileyRobot_ws/build/riley/build install --prefix /home/student/rileyRobot_ws/install/riley --record /home/student/rileyRobot_ws/build/riley/install.log --single-version-externally-managed
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley' for CMake module files
+[2.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/src/riley' returned '0': PYTHONPATH=/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/riley build --build-base /home/student/rileyRobot_ws/build/riley/build install --prefix /home/student/rileyRobot_ws/install/riley --record /home/student/rileyRobot_ws/build/riley/install.log --single-version-externally-managed
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley' for CMake config files
+[2.556s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley/lib'
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley/bin'
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley/lib/pkgconfig/riley.pc'
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages'
+[2.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('riley', 'pythonpath')
+[2.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley/share/riley/hook/pythonpath.ps1'
+[2.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/riley/share/riley/hook/pythonpath.dsv'
+[2.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/riley/share/riley/hook/pythonpath.sh'
+[2.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(riley)
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley/share/riley/package.ps1'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/riley/share/riley/package.dsv'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley/share/riley/package.sh'
+[2.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley/share/riley/package.bash'
+[2.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/riley/share/riley/package.zsh'
+[2.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/riley/share/colcon-core/packages/riley)
+[2.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/rileyRobot_ws/src/xbox_input': AMENT_PREFIX_PATH=/home/student/rileyRobot_ws/install/riley_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/rileyRobot_ws/install/riley_interfaces LD_LIBRARY_PATH=/home/student/rileyRobot_ws/install/riley_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/rileyRobot_ws/install/xbox_input/lib/python3.8/site-packages:/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/xbox_input build --build-base /home/student/rileyRobot_ws/build/xbox_input/build install --prefix /home/student/rileyRobot_ws/install/xbox_input --record /home/student/rileyRobot_ws/build/xbox_input/install.log --single-version-externally-managed
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/xbox_input' for CMake module files
+[3.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/rileyRobot_ws/src/xbox_input' returned '0': AMENT_PREFIX_PATH=/home/student/rileyRobot_ws/install/riley_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/rileyRobot_ws/install/riley_interfaces LD_LIBRARY_PATH=/home/student/rileyRobot_ws/install/riley_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/rileyRobot_ws/install/xbox_input/lib/python3.8/site-packages:/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/xbox_input build --build-base /home/student/rileyRobot_ws/build/xbox_input/build install --prefix /home/student/rileyRobot_ws/install/xbox_input --record /home/student/rileyRobot_ws/build/xbox_input/install.log --single-version-externally-managed
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/xbox_input' for CMake config files
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/xbox_input/lib'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/xbox_input/bin'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/xbox_input/lib/pkgconfig/xbox_input.pc'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/student/rileyRobot_ws/install/xbox_input/lib/python3.8/site-packages'
+[3.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('xbox_input', 'pythonpath')
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/hook/pythonpath.ps1'
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/hook/pythonpath.dsv'
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/hook/pythonpath.sh'
+[3.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xbox_input)
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/package.ps1'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/package.dsv'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/package.sh'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/package.bash'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/rileyRobot_ws/install/xbox_input/share/xbox_input/package.zsh'
+[3.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/rileyRobot_ws/install/xbox_input/share/colcon-core/packages/xbox_input)
+[3.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.088s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.088s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.098s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.098s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.098s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.119s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.119s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/rileyRobot_ws/install/local_setup.ps1'
+[3.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/rileyRobot_ws/install/_local_setup_util_ps1.py'
+[3.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/rileyRobot_ws/install/setup.ps1'
+[3.126s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/rileyRobot_ws/install/local_setup.sh'
+[3.127s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/rileyRobot_ws/install/_local_setup_util_sh.py'
+[3.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/rileyRobot_ws/install/setup.sh'
+[3.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/rileyRobot_ws/install/local_setup.bash'
+[3.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/rileyRobot_ws/install/setup.bash'
+[3.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/rileyRobot_ws/install/local_setup.zsh'
+[3.133s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/rileyRobot_ws/install/setup.zsh'

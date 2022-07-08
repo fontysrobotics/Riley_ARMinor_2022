@@ -1,0 +1,8 @@
+source;share/riley_robot_teleop/hook/cmake_prefix_path.ps1
+source;share/riley_robot_teleop/hook/cmake_prefix_path.dsv
+source;share/riley_robot_teleop/hook/cmake_prefix_path.sh
+source;share/riley_robot_teleop/local_setup.bash
+source;share/riley_robot_teleop/local_setup.dsv
+source;share/riley_robot_teleop/local_setup.ps1
+source;share/riley_robot_teleop/local_setup.sh
+source;share/riley_robot_teleop/local_setup.zsh

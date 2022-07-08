@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-06-17T13:47:36Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "RILey PCB V2.0 v82"
+        },
+        "Owner": "Quinvey Etienne <q.etienne@student.fontys.nl>",
+        "Size": {
+            "X": 120,
+            "Y": 70
+        }
+    }
+}

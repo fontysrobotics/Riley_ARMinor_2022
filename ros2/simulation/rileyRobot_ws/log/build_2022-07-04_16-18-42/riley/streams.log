@@ -1,0 +1,84 @@
+[0.914s] Invoking command in '/home/student/rileyRobot_ws/src/riley': PYTHONPATH=/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/riley build --build-base /home/student/rileyRobot_ws/build/riley/build install --prefix /home/student/rileyRobot_ws/install/riley --record /home/student/rileyRobot_ws/build/riley/install.log --single-version-externally-managed
+[1.239s] running egg_info
+[1.239s] creating ../../build/riley/riley.egg-info
+[1.240s] writing ../../build/riley/riley.egg-info/PKG-INFO
+[1.240s] writing dependency_links to ../../build/riley/riley.egg-info/dependency_links.txt
+[1.240s] writing entry points to ../../build/riley/riley.egg-info/entry_points.txt
+[1.240s] writing requirements to ../../build/riley/riley.egg-info/requires.txt
+[1.240s] writing top-level names to ../../build/riley/riley.egg-info/top_level.txt
+[1.241s] writing manifest file '../../build/riley/riley.egg-info/SOURCES.txt'
+[1.283s] reading manifest file '../../build/riley/riley.egg-info/SOURCES.txt'
+[1.284s] writing manifest file '../../build/riley/riley.egg-info/SOURCES.txt'
+[1.285s] running build
+[1.285s] running build_py
+[1.285s] creating /home/student/rileyRobot_ws/build/riley/build
+[1.285s] creating /home/student/rileyRobot_ws/build/riley/build/lib
+[1.285s] creating /home/student/rileyRobot_ws/build/riley/build/lib/riley
+[1.286s] copying riley/__init__.py -> /home/student/rileyRobot_ws/build/riley/build/lib/riley
+[1.286s] running install
+[1.286s] running install_lib
+[1.287s] creating /home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley
+[1.287s] copying /home/student/rileyRobot_ws/build/riley/build/lib/riley/__init__.py -> /home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley
+[1.288s] byte-compiling /home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley/__init__.py to __init__.cpython-38.pyc
+[1.289s] running install_data
+[1.290s] creating /home/student/rileyRobot_ws/install/riley/share/ament_index
+[1.290s] creating /home/student/rileyRobot_ws/install/riley/share/ament_index/resource_index
+[1.290s] creating /home/student/rileyRobot_ws/install/riley/share/ament_index/resource_index/packages
+[1.291s] copying resource/riley -> /home/student/rileyRobot_ws/install/riley/share/ament_index/resource_index/packages
+[1.291s] copying package.xml -> /home/student/rileyRobot_ws/install/riley/share/riley
+[1.291s] creating /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.291s] copying launch/rviz2.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.291s] copying launch/slam_toolbox.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.292s] copying launch/riley_empty_world.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.292s] copying launch/riley_world.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.292s] copying launch/riley_teleop.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.292s] copying launch/multi_riley.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.293s] copying launch/multi_nav2_slam.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.293s] copying launch/nav2_slam.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.293s] copying launch/display.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+[1.293s] creating /home/student/rileyRobot_ws/install/riley/share/riley/worlds
+[1.294s] copying worlds/world.model -> /home/student/rileyRobot_ws/install/riley/share/riley/worlds
+[1.294s] copying worlds/my_world.sdf -> /home/student/rileyRobot_ws/install/riley/share/riley/worlds
+[1.294s] creating /home/student/rileyRobot_ws/install/riley/share/riley/Riley_URDF
+[1.294s] copying Riley_URDF/riley_robot.urdf -> /home/student/rileyRobot_ws/install/riley/share/riley/Riley_URDF
+[1.294s] copying Riley_URDF/riley_robot_original.urdf.xacro -> /home/student/rileyRobot_ws/install/riley/share/riley/Riley_URDF
+[1.295s] copying Riley_URDF/riley_robot.urdf.xacro -> /home/student/rileyRobot_ws/install/riley/share/riley/Riley_URDF
+[1.295s] creating /home/student/rileyRobot_ws/install/riley/share/riley/config
+[1.295s] creating /home/student/rileyRobot_ws/install/riley/share/riley/config/slam
+[1.295s] copying config/slam/mapping.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/slam
+[1.295s] copying config/slam/localization.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/slam
+[1.295s] creating /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+[1.296s] copying config/nav2/controller_dwb.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+[1.296s] copying config/nav2/recoveries.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+[1.296s] copying config/nav2/waypoint.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+[1.296s] copying config/nav2/bt_navigator.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+[1.296s] copying config/nav2/planner.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+[1.296s] copying config/nav2_params.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config
+[1.297s] copying config/ekf.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config
+[1.297s] creating /home/student/rileyRobot_ws/install/riley/share/riley/rviz
+[1.297s] copying rviz/urdf.rviz -> /home/student/rileyRobot_ws/install/riley/share/riley/rviz
+[1.297s] creating /home/student/rileyRobot_ws/install/riley/share/riley/models
+[1.297s] creating /home/student/rileyRobot_ws/install/riley/share/riley/models/riley
+[1.297s] copying models/riley/riley_robot.sdf -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley
+[1.298s] copying models/riley/model.sdf -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley
+[1.298s] creating /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld
+[1.298s] copying models/rileyWorld/model.sdf -> /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld
+[1.298s] creating /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.298s] copying models/riley/meshes/MiddlepartV2.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.298s] copying models/riley/meshes/SwivelWheel-SwivelWheelWheel-1.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.299s] copying models/riley/meshes/IMU.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.299s] copying models/riley/meshes/ReelyBuggyWheel_Left.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.300s] copying models/riley/meshes/Camera.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.300s] copying models/riley/meshes/SwivelWheel-SwivelWheelMid-1.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.301s] copying models/riley/meshes/ReelyBuggyWheel_Right.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.303s] copying models/riley/meshes/Lidar.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.303s] copying models/riley/meshes/SwivelWheel-SwivelWheelBase-1.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.303s] copying models/riley/meshes/MiddlepartTailV2.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+[1.304s] creating /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld/meshes
+[1.304s] copying models/riley/model.config -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley
+[1.304s] copying models/rileyWorld/model.config -> /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld
+[1.304s] running install_egg_info
+[1.306s] Copying ../../build/riley/riley.egg-info to /home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley-0.0.0-py3.8.egg-info
+[1.307s] running install_scripts
+[1.327s] writing list of installed files to '/home/student/rileyRobot_ws/build/riley/install.log'
+[1.356s] Invoked command in '/home/student/rileyRobot_ws/src/riley' returned '0': PYTHONPATH=/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/riley build --build-base /home/student/rileyRobot_ws/build/riley/build install --prefix /home/student/rileyRobot_ws/install/riley --record /home/student/rileyRobot_ws/build/riley/install.log --single-version-externally-managed

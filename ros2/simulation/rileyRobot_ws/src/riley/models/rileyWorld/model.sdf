@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--
+    It is discouraged to edit this file. If you wish to make any
+    modifications, it is best practice to create your own following
+    the specifications found in http://sdformat.org/spec?elem=sdf&ver=1.5 -->
+
+<sdf version="1.5">
+    <model name="rileyWorld">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0 </pose>
+        <static>1</static>
+        <link name="maze_anchor_link">
+            <inertial>
+                <pose>0.0 0 0 0 0 0</pose>
+                <inertia>
+                    <ixx>0.001</ixx>
+                    <ixy>0.000</ixy>
+                    <ixz>0.000</ixz>
+                    <iyy>0.001</iyy>
+                    <iyz>0.000</iyz>
+                    <izz>0.001</izz>
+                </inertia>
+                <mass>50.0</mass>
+            </inertial>
+            <collision name="maze_collision">
+                <pose>0.0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://rileyWorld/meshes/maze.STL</uri>
+                        <scale>1.0 1.0 1.0</scale>
+                    </mesh>
+                </geometry>
+                <surface>
+                    <friction>
+                        <ode>
+                            <mu>0.5</mu>
+                            <mu2>0.5</mu2>
+                        </ode>
+                    </friction>
+                </surface>
+            </collision>
+            <visual name="maze_visual">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <mesh>
+                        <uri>model://rileyWorld/meshes/maze.STL</uri>
+                        <scale>1.0 1.0 1.0</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+        </link>
+    </model>
+</sdf>

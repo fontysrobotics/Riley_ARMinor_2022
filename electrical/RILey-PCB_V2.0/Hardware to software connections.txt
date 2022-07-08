@@ -1,0 +1,52 @@
+Physical pin:	GPIO pin:	Connection:
+01:			None	:	3V3,	used by TOF
+02:			None	:	5V,	used to power the Raspberry Pi 4b
+03:			2	:	SDA,	used for I2C to sensors
+04:			None	:	5V,	used to power the Raspberry Pi 4b
+05:			3	:	SCL,	used for I2C to sensors
+06:			None	:	GND,	used for power
+07:			4	:	NC,	spare available at front pins labeled 14
+08:			14	:	TX,	spare available at front pins labeled 15	
+09:			None	:	GND,	used for power	
+10:			15	:	RX,	used for receiving lidar information	
+11:			17	:	lidar 'pwm' pin, used for rotation speed
+12:			18	:	lidar enable pin, used to turn on the lidar
+13:			27	:	NC,	spare available at front pins labeled 13
+14:			None	:	GND,	used for power
+15:			22	:	stepper motor mode0
+16:			23	:	stepper motor mode1
+17:			None	:	3V3,	used by TOF
+18:			24	:	stepper motor mode2
+19:			10	:	NC,	spare available at front pins labeled 12
+20:			None	:	GND,	used for power
+21:			9	:	NC,	spare available at front pins labeled 11
+22:			25	:	NC,	spare available at front pins labeled 10
+23:			11	:	NC,	spare available at front pins labeled 9
+24:			8	:	NC,	spare available at front pins labeled 8
+25:			None	:	GND,	used for power
+26:			7	:	NC,	spare available at front pins labeled 7
+27:			0	:	NC,	spare available at front pins labeled 6
+28:			1	:	NC,	spare available at front pins labeled 5
+29:			5	:	stepper motors disable
+30:			None	:	GND,	used for power
+31:			6	:	stepper motor 1 direction
+32:			12	:	stepper motor 1 step
+33:			13	:	stepper motor 2 step
+34:			None	:	GND,	used for power
+35:			19	:	NC,	spare available at front pins labeled 4
+36:			16	:	NC,	spare available at front pins labeled 3
+37:			26	:	stepper motor 2 direction
+38:			20	:	NC,	spare available at front pins labeled 2
+39:			None	:	GND,	used for power
+40:			21	:	NC,	spare available at front pins labeled 1
+
+
+Legend:
+3V3:	3.3 Volt
+5V:	5 Volt
+SDA:	one of the I2C lines
+SCL:	one of the I2C lines
+GND:	ground
+NC:	Not Connected / not used / available
+TX:	uart transmit
+RX:	uart receive

@@ -1,0 +1,22 @@
+[0.887s] Invoking command in '/home/student/rileyRobot_ws/src/xbox_input': CMAKE_PREFIX_PATH=/home/student/rileyRobot_ws/install/riley_interfaces:/home/student/rileyRobot_ws/install/riley_robot_teleop:/home/student/rileyRobot_ws/install/my_riley_robot_nav2:/home/student/rileyRobot_ws/install/my_riley_robot_launcher:/home/student/rileyRobot_ws/install/my_riley_robot_description PYTHONPATH=/home/student/rileyRobot_ws/install/xbox_input/lib/python3.8/site-packages:/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages:/home/student/rileyRobot_ws/install/xbox_input/lib/python3.8/site-packages:/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/xbox_input build --build-base /home/student/rileyRobot_ws/build/xbox_input/build install --prefix /home/student/rileyRobot_ws/install/xbox_input --record /home/student/rileyRobot_ws/build/xbox_input/install.log --single-version-externally-managed
+[1.177s] running egg_info
+[1.178s] writing ../../build/xbox_input/xbox_input.egg-info/PKG-INFO
+[1.178s] writing dependency_links to ../../build/xbox_input/xbox_input.egg-info/dependency_links.txt
+[1.178s] writing entry points to ../../build/xbox_input/xbox_input.egg-info/entry_points.txt
+[1.179s] writing requirements to ../../build/xbox_input/xbox_input.egg-info/requires.txt
+[1.179s] writing top-level names to ../../build/xbox_input/xbox_input.egg-info/top_level.txt
+[1.221s] reading manifest file '../../build/xbox_input/xbox_input.egg-info/SOURCES.txt'
+[1.222s] writing manifest file '../../build/xbox_input/xbox_input.egg-info/SOURCES.txt'
+[1.222s] running build
+[1.222s] running build_py
+[1.223s] running install
+[1.223s] running install_lib
+[1.225s] running install_data
+[1.226s] running install_egg_info
+[1.228s] removing '/home/student/rileyRobot_ws/install/xbox_input/lib/python3.8/site-packages/xbox_input-0.0.0-py3.8.egg-info' (and everything under it)
+[1.228s] Copying ../../build/xbox_input/xbox_input.egg-info to /home/student/rileyRobot_ws/install/xbox_input/lib/python3.8/site-packages/xbox_input-0.0.0-py3.8.egg-info
+[1.229s] running install_scripts
+[1.249s] Installing publisher script to /home/student/rileyRobot_ws/install/xbox_input/lib/xbox_input
+[1.249s] Installing subscriber script to /home/student/rileyRobot_ws/install/xbox_input/lib/xbox_input
+[1.250s] writing list of installed files to '/home/student/rileyRobot_ws/build/xbox_input/install.log'
+[1.272s] Invoked command in '/home/student/rileyRobot_ws/src/xbox_input' returned '0': CMAKE_PREFIX_PATH=/home/student/rileyRobot_ws/install/riley_interfaces:/home/student/rileyRobot_ws/install/riley_robot_teleop:/home/student/rileyRobot_ws/install/my_riley_robot_nav2:/home/student/rileyRobot_ws/install/my_riley_robot_launcher:/home/student/rileyRobot_ws/install/my_riley_robot_description PYTHONPATH=/home/student/rileyRobot_ws/install/xbox_input/lib/python3.8/site-packages:/home/student/rileyRobot_ws/install/riley_interfaces/lib/python3.8/site-packages:/home/student/rileyRobot_ws/install/xbox_input/lib/python3.8/site-packages:/home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/xbox_input build --build-base /home/student/rileyRobot_ws/build/xbox_input/build install --prefix /home/student/rileyRobot_ws/install/xbox_input --record /home/student/rileyRobot_ws/build/xbox_input/install.log --single-version-externally-managed

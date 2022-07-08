@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title of the page -->
+    <title>RILey Environment Preparations</title>
+
+    <!-- Used CSS files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Environment_Preparations_RILey/css/w3.css">
+    <link href="Environment_Preparations_RILey/css/all.css" rel="stylesheet">
+
+    <!-- Used Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+    <!-- Style Presets -->
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,
+        h1,
+        button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-anchor,
+        .fa-coffee {
+            font-size: 200px
+        }
+    </style>
+    <!-- End Style Presets -->
+</head>
+
+<!-- Page Content -->
+
+<body class="w3-dark-gray">
+    <!-- Header -->
+    <header id="home" class="w3-container w3-red w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">Installing Linux on Raspberry Pi</h1>
+        <p class="w3-xlarge">Installing Ubuntu server 20.04 on your Raspberry Pi</p>
+    </header>
+    <!-- End Header -->
+
+    <!-- SD-card -->
+    <div class="w3-padding w3-container w3-padding-64">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>1. Put an OS image on a SD-card</h1>
+
+                <p>First of all you need a raspberry pi 3 or 4 (preferable 4) you also need a micro SD-card with more
+                    than 8GB of memory. Stick the empty SD-card in your computer you might need an adapter for this.
+                    Here we used the official raspberry pi imager you can download it here:
+                    <a href="https://www.raspberrypi.com/software/" target="_blank">www.raspberrypi.com/software/</a>
+                </p>
+
+                <p>Using the official raspberry pi imager select:</br>
+                    <strong> Operating System
+                        <i class="fa-solid fa-arrow-right"></i>
+                        Other general-purpose OS
+                        <i class="fa-solid fa-arrow-right"></i>
+                        Ubuntu
+                        <i class="fa-solid fa-arrow-right"></i>
+                        Ubuntu Server 20.04.4 LTS (RPi 3/4/400)
+                    </strong>
+                </p>
+
+                <img src="Environment_Preparations_RILey/pictures/Raspberry_Install/Raspberry_imager_pic1.png"
+                    style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Operating System">
+                <img src="Environment_Preparations_RILey/pictures/Raspberry_Install/Raspberry_imager_pic2.png"
+                    style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Other general-purpose OS">
+                <img src="Environment_Preparations_RILey/pictures/Raspberry_Install/Raspberry_imager_pic3.png"
+                    style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ubuntu">
+                <img src="Environment_Preparations_RILey/pictures/Raspberry_Install/Raspberry_imager_pic4.png"
+                    style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    alt="Ubuntu Server 20.04.4 LTS (RPi 3/4/400)">
+
+                <p>After selecting the OS select a storage device the SD-card and press write to put the OS image on the
+                    SD-card. After that&rsquo;s done you can pull out the SD-card out of your computer and insert it in
+                    the raspberry pi. If you plug power into the raspberry pi it should boot up with the new operating
+                    system.</p>
+            </div>
+
+            <div class="w3-third w3-center ">
+                <i class="fa-brands fa-raspberry-pi fa-10x w3-padding-64 w3-margin-right"></i>
+                <i class="fa-solid fa-sd-card fa-10x w3-padding-64 w3-margin-right"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End SD-card -->
+
+    <!-- Networking -->
+    <div class="w3-row-padding w3-gray w3-padding-64 w3-container w3-text-black">
+        <div class="w3-content">
+            <div class="w3-third w3-center">
+                <i class="fa-brands fa-raspberry-pi fa-10x w3-padding-64 w3-margin-right"></i>
+                <i class="fa-solid fa-wifi fa-9x w3-padding-64 w3-margin-right"></i>
+            </div>
+
+            <div class="w3-twothird">
+                <h1>2. Configure network setting on Raspberry Pi</h1>
+
+                <p>To connect your raspberry to a Wi-Fi network you have to log in to your raspberry pi using a monitor
+                    and keyboard. Here you be setting up a static IP on the raspberry, to be able to SSH into the Pi.</p>
+
+                <p>Navigate to netplan</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    cd /etc/netplan
+                </div>
+                <!-- End Code Block -->
+
+                <p>Remove the old file 50-cloud-init.yaml</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    sudo rm 50-cloud-init.yaml
+                </div>
+                <!-- End Code Block -->
+
+                <p>Add a new file named 01-netcfg.yaml</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    sudo touch 01-netcfg.yaml
+                </div>
+                <!-- End Code Block -->
+
+                <p>Edit 01-netcfg.yaml file</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    sudo nano 01-netcfg.yaml
+                </div>
+                <!-- End Code Block -->
+
+                <p>it should contain the following information Tip: the file should not contain any tabs. Each jump is 2
+                    spaces long. This file is based on a hotspot with ssid: <strong>RileyHotspot</strong> password:
+                    <strong>rileyriley</strong>
+                </p>
+
+                <p>Press <u>control + x</u> then <u>y</u> to save the file and <u>enter</u> to exit out of the nano text
+                    editor</p>
+
+                <p>Then apply the changes</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    sudo netplan apply
+                </div>
+                <!-- End Code Block -->
+
+                <p>In case you run into issues execute: following command to debug</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    sudo netplan --debug apply
+                </div>
+                <!-- End Code Block -->
+
+                <p>Next navigate to cloud.cfg.d</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    cd /etc/cloud/cloud.cfg.d
+                </div>
+                <!-- End Code Block -->
+
+                <p>Add a file named 99-disable-network-config.cfg</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    sudo touch 99-disable-network-config.cfg
+                </div>
+                <!-- End Code Block -->
+
+                <p>Edit file</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    sudo nano 99-disable-network-config.cfg
+                </div>
+                <!-- End Code Block -->
+
+                <p>It should contain the following information:</p>
+
+                <p>Press <u>control + x</u> then <u>y</u> to save the file and <u>enter</u> to exit out of the nano text
+                    editor</p>
+
+                <p>Reboot the pi to make sure everything works</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-dark-gray notranslate">
+                    sudo reboot
+                </div>
+                <!-- End Code Block -->
+            </div>
+        </div>
+    </div>
+    <!-- End Networking -->
+
+    <!-- Configure Raspberry -->
+    <div class="w3-padding w3-container w3-padding-64">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>3. Configure Raspberry Pi itself</h1>
+
+                <p>First we set the date and time good. To check this execute command:</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-light-gray notranslate">
+                    date
+                </div>
+                <!-- End Code Block -->
+
+                <p>If it's not correct you can set it by running command:</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-light-gray notranslate">
+                    sudo apt update
+                </div>
+                <!-- End Code Block -->
+
+                <p>You should also change your timezone</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-light-gray notranslate">
+                    timedatectl set-timezone Europe/Amsterdam
+                </div>
+                <!-- End Code Block -->
+
+                <p>Update again</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-light-gray notranslate">
+                    sudo apt update
+                </div>
+                <!-- End Code Block -->
+
+                <p>And also upgrade</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-light-gray notranslate">
+                    sudo apt upgrade
+                </div>
+                <!-- End Code Block -->
+
+                <p>This can take a while, you know when its done if you run sudo apt update and it says that there are
+                    no more packages that can be upgraded.</p>
+
+                <p>Then after that install ifconfig command tool this is helpful if you want to know the ip-adress of
+                    the Raspberry Pi</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-light-gray notranslate">
+                    sudo apt install net-tools
+                </div>
+                <!-- End Code Block -->
+
+                <p>You also might want to install nmap this is used to scan an ip-range to see which devices are on
+                    which ip-adress. To install it run command:</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-light-gray notranslate">
+                    sudo apt install nmap
+                </div>
+                <!-- End Code Block -->
+
+                <p>To scan an ip-range with a mask of 255.255.255.0 (24-bits) for example 192.168.137.X use command:</p>
+
+                <!-- Code Block -->
+                <div class="w3-code w3-light-gray notranslate">
+                    sudo nmap -sP 192.168.137.0/24
+                </div>
+                <!-- End Code Block -->
+
+                <p>Here it wil scan all devices that are on the range from 192.168.137.0 and 192.168.137.255</p>
+            </div>
+
+            <div class="w3-third w3-center ">
+                <i class="fa-brands fa-raspberry-pi fa-10x w3-padding-64 w3-margin-left"></i>
+                <i class="fa-solid fa-screwdriver-wrench fa-8x w3-padding-64 w3-margin-left"></i>
+            </div>
+        </div>
+    </div>
+    <!-- End Configure Raspberry -->
+
+</body>
+<!-- End Page Content -->
+
+</html>

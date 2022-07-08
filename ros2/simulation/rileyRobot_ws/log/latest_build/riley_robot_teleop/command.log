@@ -1,0 +1,4 @@
+Invoking command in '/home/student/rileyRobot_ws/build/riley_robot_teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_robot_teleop -- -j12 -l12
+Invoked command in '/home/student/rileyRobot_ws/build/riley_robot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/riley_robot_teleop -- -j12 -l12
+Invoking command in '/home/student/rileyRobot_ws/build/riley_robot_teleop': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_robot_teleop
+Invoked command in '/home/student/rileyRobot_ws/build/riley_robot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/riley_robot_teleop

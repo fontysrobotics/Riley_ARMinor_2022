@@ -1,0 +1,211 @@
+[0.060s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_description -- -j12 -l12
+[0.439s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_description -- -j12 -l12
+[0.477s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_description
+[0.491s] -- Install configuration: ""
+[0.492s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//launch
+[0.493s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//launch/spawn_riley_robot_v2.py
+[0.496s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//launch/publish_urdf.launch.py
+[0.497s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//launch/spawn_riley_robot_launch.py
+[0.498s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//launch/spawn_riley_robot.py
+[0.499s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//launch/multi_riley_robot.launch.py
+[0.500s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//launch/display.launch.py
+[0.502s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//Riley_URDF
+[0.502s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//Riley_URDF/riley_robot_original.urdf.xacro
+[0.502s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//Riley_URDF/riley_robot.urdf
+[0.503s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//Riley_URDF/riley_robot.urdf.xacro
+[0.503s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//rviz
+[0.503s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//rviz/urdf.rviz
+[0.504s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes
+[0.504s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 2.54 mm DUPONT MALE PIN HEADER, IO, 2X20, RPi4ModelB-1.STL
+[0.504s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 C1_Predeterminado_Como mecanizada_.STEP-5.STL
+[0.504s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-18.STL
+[0.505s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Display Connector, RPi4ModelB-1.STL
+[0.505s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 V1.STEP-1.STL
+[0.505s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0402 Resistor-7.STL
+[0.505s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 zl262-8s_p2-54_l20-8_w2-54_h8-5.stp-1.STL
+[0.506s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 R1.STEP-4.STL
+[0.506s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-2 link2-1.STL
+[0.506s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - ReelyBuggyWheel_Left-2.STL
+[0.506s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-7.STL
+[0.507s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0402 Resistor-3.STL
+[0.507s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-42.STL
+[0.507s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 R1.STEP-3.STL
+[0.507s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3rdFloor_Sheetmetal-1.STL
+[0.507s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-46.STL
+[0.508s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0402 Resistor-1.STL
+[0.508s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-4.STL
+[0.508s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Microphone Plug, RPi4ModelB-1.STL
+[0.509s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 C1_Predeterminado_Como mecanizada_.STEP-4.STL
+[0.509s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-27.STL
+[0.509s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 zl262-8s_p2-54_l20-8_w2-54_h8-5.stp-7.STL
+[0.509s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_iso-3.STL
+[0.510s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Nema 17_Slim-2.STL
+[0.510s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-41.STL
+[0.510s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0603 Resistor-2.STL
+[0.511s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Spacer-6.STL
+[0.511s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 Platine 5x7.stp-1.STL
+[0.511s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-8.STL
+[0.511s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-2 link2-2.STL
+[0.512s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex screw gradeab fine_iso-2.STL
+[0.512s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0402 Resistor-1.STL
+[0.512s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-66.STL
+[0.513s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-51.STL
+[0.514s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Broadcom BCM2711B0 CPU, RPi4ModelB-1.STL
+[0.514s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 8 pin Header-1.STL
+[0.514s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-7.STL
+[0.514s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-47.STL
+[0.514s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-22.STL
+[0.514s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Cam V2.1 v1.step-1.STL
+[0.515s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw_iso-13.STL
+[0.515s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-1 link2-1.STL
+[0.515s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 zl262-8s_p2-54_l20-8_w2-54_h8-5.stp-5.STL
+[0.515s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-33.STL
+[0.515s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 PinHeader2x8row-2.STL
+[0.515s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - CameraMount-1.STL
+[0.515s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 MP92.STEP-1.STL
+[0.516s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-2.STL
+[0.516s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-26.STL
+[0.516s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 C1_Predeterminado_Como mecanizada_.STEP-3.STL
+[0.516s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 2.54 mm DUPONT MALE PIN HEADER, POE, 2X2, RPi4ModelB-1.STL
+[0.516s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - dc-dc-5a-cc-merged-1.STL
+[0.517s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-58.STL
+[0.517s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-1 Li-ion Battery-3.STL
+[0.517s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-32.STL
+[0.517s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 C1_Predeterminado_Como mecanizada_.STEP-2.STL
+[0.517s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw_iso-15.STL
+[0.517s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Female USB Type C Connector, RPi4ModelB-1.STL
+[0.517s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-53.STL
+[0.518s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0402 Resistor-2.STL
+[0.518s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 PinHeader8row-3.STL
+[0.518s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - VL53l1X-1.STL
+[0.518s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - TimeOfFlightMount-1.STL
+[0.518s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-2 Li-ion Battery-3.STL
+[0.518s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-62.STL
+[0.519s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0402 Resistor-3.STL
+[0.519s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Spacer-4.STL
+[0.520s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 8 pin Header-1.STL
+[0.520s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Spacer-3.STL
+[0.520s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0402 Resistor-5.STL
+[0.520s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-9.STL
+[0.520s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0402 Resistor-2.STL
+[0.521s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-16.STL
+[0.522s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - LD06_Assembly-1 LD06_LiDAR-1 JIS_B1111_M2x6.step-1.STL
+[0.522s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - LD06_Assembly-1 LD06_LiDAR-1 LD06_LiDAR-1.STL
+[0.522s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-61.STL
+[0.522s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 8 pin Header-2.STL
+[0.523s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-1 link2-2.STL
+[0.523s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-54.STL
+[0.523s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-48.STL
+[0.523s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-13.STL
+[0.524s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw_iso-3.STL
+[0.524s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - ReelyBuggyWheel_Right-2.STL
+[0.525s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_iso-2.STL
+[0.525s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0402 Resistor-7.STL
+[0.526s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Spacer-5.STL
+[0.527s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 DRV8825 IC-1.STL
+[0.527s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Backwheel-1.STL
+[0.528s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-2 Li-ion Battery-1.STL
+[0.528s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-59.STL
+[0.528s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 SD Card Slot, RPi4ModelB-1.STL
+[0.529s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Broadcom BCM54213PE Gigabit Ethernet Transceiver, RPi4ModelB-1.STL
+[0.529s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 B4B-XH-A.step-2.STL
+[0.529s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Female Micro HDMI Connector, RPi4ModelB-2.STL
+[0.530s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0603 Resistor-1.STL
+[0.530s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Spacer-7.STL
+[0.530s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-15.STL
+[0.531s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex screw gradeab fine_iso-1.STL
+[0.531s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0402 Resistor-6.STL
+[0.531s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 PinHeader2x8row-1.STL
+[0.531s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 8 pin Header-2.STL
+[0.532s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 C1_Predeterminado_Como mecanizada_.STEP-1.STL
+[0.532s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-16.STL
+[0.533s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0402 Resistor-4.STL
+[0.533s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Gigabit Ethernet Port, RPi4ModelB-1.STL
+[0.533s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 PCB, RPi4ModelB-1.STL
+[0.534s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - LD06_Assembly-1 LD06_LiDAR-1 JIS_B1111_M2x6.step-2.STL
+[0.535s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 PCB-1.STL
+[0.536s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 zl262-8s_p2-54_l20-8_w2-54_h8-5.stp-6.STL
+[0.536s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 2X USB3.0 PORTS, RPi4ModelB-2.STL
+[0.539s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - LD06_Assembly-1 LD06_PiBracket-1.STL
+[0.539s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-1 Li-ion Battery-1.STL
+[0.539s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 SMD Pot-1.STL
+[0.540s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw_iso-16.STL
+[0.540s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-17.STL
+[0.540s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw_iso-2.STL
+[0.540s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw_iso-17.STL
+[0.540s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-6.STL
+[0.540s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_iso-5.STL
+[0.540s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-25.STL
+[0.541s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - LD06_Assembly-1 LD06_LiDAR-1 jst-1.5mm-4P.step-1.STL
+[0.541s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 R1.STEP-1.STL
+[0.541s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw_iso-9.STL
+[0.541s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-49.STL
+[0.541s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Camera Connector, RPi4ModelB-1.STL
+[0.541s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - BatteryCoverFront-1.STL
+[0.541s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-52.STL
+[0.542s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 91D77 D9WHV 778K, 4 GB LPDDR4 SDRAM, RPi4ModelB-1.STL
+[0.543s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Female Micro HDMI Connector, RPi4ModelB-3.STL
+[0.543s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 PinHeader10row-1.STL
+[0.543s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Spacer-2.STL
+[0.544s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 Cypress CYW43455 Wireless Module Cover, RPi4ModelB-1.STL
+[0.544s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-8.STL
+[0.544s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-11.STL
+[0.544s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 R1.STEP-2.STL
+[0.545s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 B4B-XH-A.step-1.STL
+[0.545s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 VIA VL805 PCIe USB 3.0 controller, RPi4ModelB-1.STL
+[0.545s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0402 Resistor-6.STL
+[0.545s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 2X USB2.0 PORTS, RPi4ModelB-1.STL
+[0.547s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-10.STL
+[0.547s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 PCB-1.STL
+[0.548s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-43.STL
+[0.548s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0603 Resistor-2.STL
+[0.548s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 SMD Pot-1.STL
+[0.548s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 C2.STEP-1.STL
+[0.549s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_iso-4.STL
+[0.549s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 zl262-8s_p2-54_l20-8_w2-54_h8-5.stp-2.STL
+[0.549s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-2 0805 Capacitor-1.STL
+[0.550s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - MiddlepartV1-1.STL
+[0.550s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-3.STL
+[0.550s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0402 Resistor-4.STL
+[0.551s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 PCB.STEP-1.STL
+[0.551s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Spacer-8.STL
+[0.551s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-5.STL
+[0.551s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Nema 17_Slim-1.STL
+[0.552s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 DRV8825 IC-1.STL
+[0.552s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - socket head cap screw 4762_din-40.STL
+[0.552s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0805 Capacitor-1.STL
+[0.552s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-1 Li-ion Battery-2.STL
+[0.553s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - 3_battery_pack-2 Li-ion Battery-2.STL
+[0.553s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Raspberry Pi 4 Model B-1 MxL7704 Universal PMIC, RPi4ModelB-1.STL
+[0.553s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 zl262-4s_p2-54_l10-6_w2-54_h8-5.stp-1.STL
+[0.554s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-12.STL
+[0.555s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0603 Resistor-1.STL
+[0.556s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - Spacer-1.STL
+[0.556s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 PinHeader8row-1.STL
+[0.557s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - hex nut style 1 gradeab_din-20.STL
+[0.557s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 MPU9250.STEP-1 R1.STEP-5.STL
+[0.558s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//meshes/RILey_assembly - PCB-1 DRV 8825 With Headers Assem-4 0402 Resistor-5.STL
+[0.558s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//config
+[0.558s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//config/nav2_params.yaml
+[0.560s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//config/ekf.yaml
+[0.562s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//worlds
+[0.563s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//worlds/riley_robot_empty.world
+[0.563s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description//worlds/my_world.sdf
+[0.563s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/lib/my_riley_robot_description/spawn_riley_robot.py
+[0.563s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/lib/my_riley_robot_description/spawn_riley_robot_v2.py
+[0.564s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/ament_index/resource_index/package_run_dependencies/my_riley_robot_description
+[0.570s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/ament_index/resource_index/parent_prefix_path/my_riley_robot_description
+[0.570s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/environment/ament_prefix_path.sh
+[0.571s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/environment/ament_prefix_path.dsv
+[0.572s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/environment/path.sh
+[0.572s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/environment/path.dsv
+[0.572s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/local_setup.bash
+[0.573s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/local_setup.sh
+[0.573s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/local_setup.zsh
+[0.573s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/local_setup.dsv
+[0.574s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.dsv
+[0.574s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/ament_index/resource_index/packages/my_riley_robot_description
+[0.575s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/cmake/my_riley_robot_descriptionConfig.cmake
+[0.575s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/cmake/my_riley_robot_descriptionConfig-version.cmake
+[0.577s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_description/share/my_riley_robot_description/package.xml
+[0.584s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_description

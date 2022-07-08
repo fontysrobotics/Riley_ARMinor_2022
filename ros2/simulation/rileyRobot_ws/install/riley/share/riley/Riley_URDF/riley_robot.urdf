@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<robot name="riley_robot">
+  <material name="grey">
+      <color rgba="0.5 0.5 0.5 1.0" />
+  </material>
+  
+  
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://riley/models/riley/meshes/MiddlepartV2.STL"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+  
+  <link name="tail_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry> 
+        <mesh filename="package://riley/models/riley/meshes/MiddlepartTailV2.STL"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+  
+  <joint name="tail_link_joint" type="fixed">
+    <origin xyz="-0.093 0.0 -0.0115" rpy="0 0 0" />
+    <parent link="base_link"/>
+    <child link="tail_link" />
+  </joint>
+
+  <link name="left_wheel">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://riley/models/riley/meshes/ReelyBuggyWheel_Left.STL"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+  </link>
+    
+  <link name="right_wheel">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="package://riley/models/riley/meshes/ReelyBuggyWheel_Right.STL"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+  </link>
+    
+  <joint name="left_wheel_joint" type="continuous">
+      <axis xyz="0 1 0" />
+      <parent link="base_link"/>
+      <child link="left_wheel"/>
+      <origin xyz="0 0.14 -0.01575" rpy="-1.57 0 0"/>
+  </joint>
+    
+  <joint name="right_wheel_joint" type="continuous">
+      <axis xyz="0 1 0" />
+      <parent link="base_link"/>
+      <child link="right_wheel"/>
+      <origin xyz="0 -0.14 -0.01575" rpy="-1.57 0 0"/>
+  </joint>
+  
+  <link name="back_wheel">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.03"/>
+        <mesh filename="package://riley/models/meshes/SwivelWheel-SwivelWheelWheel-1.STL"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+  
+  <joint name="back_wheel_joint" type="fixed">
+    <parent link="tail_link"/>
+    <child link="back_wheel"/>
+    <origin xyz="-0.04 0.0 -0.039" rpy="0 0 0"/>
+  </joint>
+    
+
+  <link name="imu_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://riley/models/riley/meshes/RILey_assembly-PCB-1MPU9250.STEP-1V1.STEP-1.STL"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <origin xyz="0 0.01 0"/>
+  </joint>
+
+  
+  <link name="lidar_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+         <mesh filename="package://riley/models/riley/meshes/RILey_assembly%20-%20LD06_Assembly-1%20LD06_LiDAR-1%20LD06_LiDAR-1.STL"/>
+      </geometry>
+    </visual>
+  </link>
+    
+  <joint name="lidar_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_link"/>
+    <origin xyz="0 0 0.054" rpy="0 0 0"/>
+  </joint>
+  
+  
+  <link name="camera_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://riley/models/riley/meshes/RILey_assembly-Cam V2.1 v1.step-1.STL"/>
+      </geometry>
+    </visual>
+  </link>
+
+  
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <origin xyz="0.045 0 0.03" rpy="0 0 0"/>
+  </joint>
+
+  <link name="camera_depth_frame"/>
+
+  <joint name="camera_depth_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
+    <parent link="camera_link"/>
+    <child link="camera_depth_frame"/>
+  </joint>
+
+</robot>
+
+
+
+

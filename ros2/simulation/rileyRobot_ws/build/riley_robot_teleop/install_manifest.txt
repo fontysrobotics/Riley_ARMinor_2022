@@ -1,0 +1,15 @@
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/ament_index/resource_index/package_run_dependencies/riley_robot_teleop
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/ament_index/resource_index/parent_prefix_path/riley_robot_teleop
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/environment/ament_prefix_path.sh
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/environment/ament_prefix_path.dsv
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/environment/path.sh
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/environment/path.dsv
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/local_setup.bash
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/local_setup.sh
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/local_setup.zsh
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/local_setup.dsv
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.dsv
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/ament_index/resource_index/packages/riley_robot_teleop
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/cmake/riley_robot_teleopConfig.cmake
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/cmake/riley_robot_teleopConfig-version.cmake
+/home/student/rileyRobot_ws/install/riley_robot_teleop/share/riley_robot_teleop/package.xml

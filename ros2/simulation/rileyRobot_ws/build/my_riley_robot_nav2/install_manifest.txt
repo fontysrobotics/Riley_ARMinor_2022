@@ -1,0 +1,15 @@
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/ament_index/resource_index/package_run_dependencies/my_riley_robot_nav2
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/ament_index/resource_index/parent_prefix_path/my_riley_robot_nav2
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/ament_prefix_path.sh
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/ament_prefix_path.dsv
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/path.sh
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/path.dsv
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.bash
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.sh
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.zsh
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.dsv
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.dsv
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/ament_index/resource_index/packages/my_riley_robot_nav2
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/cmake/my_riley_robot_nav2Config.cmake
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/cmake/my_riley_robot_nav2Config-version.cmake
+/home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_description -- -j12 -l12
+Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_description -- -j12 -l12
+Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_description
+Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_description

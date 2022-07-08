@@ -1,0 +1,46 @@
+[0.040s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/rileyRobot_ws/src/my_riley_robot_nav2 -DCMAKE_INSTALL_PREFIX=/home/student/rileyRobot_ws/install/my_riley_robot_nav2
+[0.377s] -- The C compiler identification is GNU 9.4.0
+[0.377s] -- The CXX compiler identification is GNU 9.4.0
+[0.377s] -- Check for working C compiler: /usr/bin/cc
+[0.377s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.378s] -- Detecting C compiler ABI info
+[0.378s] -- Detecting C compiler ABI info - done
+[0.378s] -- Detecting C compile features
+[0.378s] -- Detecting C compile features - done
+[0.378s] -- Check for working CXX compiler: /usr/bin/c++
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.465s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.587s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.618s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.619s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.899s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.008s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.012s] -- Added test 'lint_cmake' to check CMake code style
+[1.013s] -- Added test 'xmllint' to check XML markup files
+[1.017s] -- Configuring done
+[1.021s] -- Generating done
+[1.023s] -- Build files have been written to: /home/student/rileyRobot_ws/build/my_riley_robot_nav2
+[1.029s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/rileyRobot_ws/src/my_riley_robot_nav2 -DCMAKE_INSTALL_PREFIX=/home/student/rileyRobot_ws/install/my_riley_robot_nav2
+[1.034s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_nav2 -- -j12 -l12
+[1.083s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_nav2 -- -j12 -l12
+[1.127s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_nav2
+[1.137s] -- Install configuration: ""
+[1.138s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/ament_index/resource_index/package_run_dependencies/my_riley_robot_nav2
+[1.138s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/ament_index/resource_index/parent_prefix_path/my_riley_robot_nav2
+[1.138s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/ament_prefix_path.sh
+[1.138s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/ament_prefix_path.dsv
+[1.138s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/path.sh
+[1.139s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/path.dsv
+[1.139s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.bash
+[1.139s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.sh
+[1.139s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.zsh
+[1.139s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.dsv
+[1.140s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.dsv
+[1.140s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/ament_index/resource_index/packages/my_riley_robot_nav2
+[1.140s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/cmake/my_riley_robot_nav2Config.cmake
+[1.140s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/cmake/my_riley_robot_nav2Config-version.cmake
+[1.140s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.xml
+[1.143s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_nav2

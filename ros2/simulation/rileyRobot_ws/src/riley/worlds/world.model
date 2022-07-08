@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+  <world name="default">
+
+    <!-- Adds a plane where the various dynamic objects are moving on-->    
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Adds a source of light to the world-->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <scene>
+      <shadows>false</shadows>
+    </scene>
+
+    <gui fullscreen='0'>
+    </gui>
+
+    <!-- Adjusts parameters f0r the physics engine -->
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <ode>
+        <constraints>
+          <cfm>0.00001</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>150.0</contact_max_correcting_vel>
+          <contact_surface_layer>0.01</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+    
+    <!-- Adds the room where the robot is navigating -->
+    <include>
+      <pose>0 0.0 0.0 0.0 0.0 0.0</pose>
+      <uri>model://rileyWorld</uri>
+      <static>1</static>
+    </include>
+  </world>
+</sdf>

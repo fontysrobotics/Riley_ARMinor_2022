@@ -1,0 +1,144 @@
+[0.043s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/rileyRobot_ws/src/my_riley_robot_launcher -DCMAKE_INSTALL_PREFIX=/home/student/rileyRobot_ws/install/my_riley_robot_launcher
+[0.382s] -- The C compiler identification is GNU 9.4.0
+[0.382s] -- The CXX compiler identification is GNU 9.4.0
+[0.383s] -- Check for working C compiler: /usr/bin/cc
+[0.383s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.383s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.383s] -- Detecting C compile features
+[0.383s] -- Detecting C compile features - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++
+[0.470s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.472s] -- Detecting CXX compiler ABI info
+[0.575s] -- Detecting CXX compiler ABI info - done
+[0.604s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.610s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.647s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.648s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.942s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.001s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.010s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.115s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.157s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.340s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.342s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.344s] -- Looking for pthread.h
+[1.436s] -- Looking for pthread.h - found
+[1.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.524s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.524s] -- Looking for pthread_create in pthreads
+[1.599s] -- Looking for pthread_create in pthreads - not found
+[1.599s] -- Looking for pthread_create in pthread
+[1.683s] -- Looking for pthread_create in pthread - found
+[1.684s] -- Found Threads: TRUE  
+[1.886s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[1.892s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.894s] -- Checking for module 'bullet>=2.82'
+[1.914s] --   Found bullet, version 2.88
+[2.071s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.150s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.228s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.261s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.295s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.316s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.322s] -- Looking for ignition-math6 -- found version 6.7.0
+[2.329s] -- Searching for dependencies of ignition-math6
+[2.331s] -- Looking for OGRE...
+[2.332s] -- OGRE_PREFIX_WATCH changed.
+[2.338s] -- Checking for module 'OGRE'
+[2.356s] --   Found OGRE, version 1.9.0
+[2.416s] -- Found Ogre Ghadamon (1.9.0)
+[2.430s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.444s] -- Looking for OGRE_Paging...
+[2.452s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.452s] -- Looking for OGRE_Terrain...
+[2.460s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.461s] -- Looking for OGRE_Property...
+[2.470s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.470s] -- Looking for OGRE_RTShaderSystem...
+[2.482s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.482s] -- Looking for OGRE_Volume...
+[2.497s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.497s] -- Looking for OGRE_Overlay...
+[2.514s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.722s] -- Looking for ignition-math6 -- found version 6.7.0
+[2.724s] -- Looking for ignition-transport8 -- found version 8.2.0
+[2.725s] -- Searching for dependencies of ignition-transport8
+[2.748s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.763s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.769s] -- Checking for module 'libzmq >= 4'
+[2.789s] --   Found libzmq , version 4.3.2
+[2.846s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.855s] -- Checking for module 'uuid'
+[2.877s] --   Found uuid, version 2.34.0
+[2.966s] -- Found UUID: TRUE  
+[2.971s] -- Looking for ignition-msgs5 -- found version 5.6.0
+[2.972s] -- Searching for dependencies of ignition-msgs5
+[3.014s] -- Looking for ignition-math6 -- found version 6.7.0
+[3.024s] -- Checking for module 'tinyxml2'
+[3.057s] --   Found tinyxml2, version 6.2.0
+[3.137s] -- Looking for ignition-msgs5 -- found version 5.6.0
+[3.141s] -- Looking for ignition-common3 -- found version 3.11.1
+[3.143s] -- Searching for dependencies of ignition-common3
+[3.144s] -- Looking for dlfcn.h - found
+[3.146s] -- Looking for libdl - found
+[3.150s] -- Found DL: TRUE  
+[3.163s] -- Searching for <ignition-common3> component [graphics]
+[3.166s] -- Looking for ignition-common3-graphics -- found version 3.11.1
+[3.168s] -- Searching for dependencies of ignition-common3-graphics
+[3.169s] -- Looking for ignition-math6 -- found version 6.7.0
+[3.176s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[3.177s] -- Searching for dependencies of ignition-fuel_tools4
+[3.487s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[3.506s] -- Checking for module 'jsoncpp'
+[3.538s] --   Found jsoncpp, version 1.7.4
+[3.658s] -- Found JSONCPP: TRUE  
+[3.670s] -- Checking for module 'libzip'
+[3.762s] --   Found libzip, version 1.5.1
+[3.916s] -- Found ZIP: TRUE  
+[3.917s] -- Looking for ignition-common3 -- found version 3.11.1
+[3.919s] -- Looking for ignition-msgs5 -- found version 5.6.0
+[3.925s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.092s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.098s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.099s] -- Added test 'lint_cmake' to check CMake code style
+[4.101s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.104s] -- Added test 'xmllint' to check XML markup files
+[4.111s] -- Configuring done
+[4.118s] -- Generating done
+[4.122s] -- Build files have been written to: /home/student/rileyRobot_ws/build/my_riley_robot_launcher
+[4.142s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/student/rileyRobot_ws/src/my_riley_robot_launcher -DCMAKE_INSTALL_PREFIX=/home/student/rileyRobot_ws/install/my_riley_robot_launcher
+[4.146s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_launcher -- -j12 -l12
+[4.214s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_launcher -- -j12 -l12
+[4.257s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_launcher
+[4.268s] -- Install configuration: ""
+[4.269s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch
+[4.269s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/multi_riley_robot_launch.py
+[4.269s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/my_riley_robot_bringup.launch.py
+[4.269s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/turtlebot3_state_publisher.launch.py
+[4.270s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/riley_robot_launch.py
+[4.270s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/start_world_launch.py
+[4.270s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//launch/hlds_laser.launch.py
+[4.270s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//param
+[4.270s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//param/riley.yaml
+[4.270s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//Worlds
+[4.271s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//Worlds/riley_robot_empty.world
+[4.271s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher//Worlds/my_world.sdf
+[4.271s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/ament_index/resource_index/package_run_dependencies/my_riley_robot_launcher
+[4.271s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/ament_index/resource_index/parent_prefix_path/my_riley_robot_launcher
+[4.271s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/ament_prefix_path.sh
+[4.272s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/ament_prefix_path.dsv
+[4.272s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/path.sh
+[4.272s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/environment/path.dsv
+[4.272s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.bash
+[4.272s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.sh
+[4.273s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.zsh
+[4.273s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/local_setup.dsv
+[4.273s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.dsv
+[4.273s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/ament_index/resource_index/packages/my_riley_robot_launcher
+[4.273s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/cmake/my_riley_robot_launcherConfig.cmake
+[4.274s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/cmake/my_riley_robot_launcherConfig-version.cmake
+[4.274s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_launcher/share/my_riley_robot_launcher/package.xml
+[4.280s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_launcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_launcher

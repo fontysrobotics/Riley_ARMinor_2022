@@ -1,0 +1,28 @@
+Qty;Value;Device;Package;Parts;Description;ALLIED_NUMBER;ARROW_PART_NUMBER;ARROW_PRICE-STOCK;CATEGORY;COLOR;CONNECTOR_TYPE;CONTACT_FINISH;CONTACT_FINISH_THICKNESS;CONTACT_MATING_LENGTH;CONTACT_TYPE;DESCRIPTION;DOCUMENTATION_LINK;DOCUMENTATION_URL;FAMILY;FASTENING_TYPE;FEATURES;HEIGHT;MANUFACTURER;MANUFACTURER_NAME;MANUFACTURER_PART_NUMBER;MF;MOUNTING_TYPE;MOUSER_PART_NUMBER;MOUSER_PRICE-STOCK;MPN;NUMBER_OF_POSITIONS;NUMBER_OF_POSITIONS_LOADED;NUMBER_OF_ROWS;OC_FARNELL;OC_NEWARK;PART_NUMBER;PITCH;POPULARITY;ROW_SPACING;RS_PART_NUMBER;RS_PRICE-STOCK;SERIES;SUPPLIER_ITEM_LINK;SUPPLIER_ITEM_NUMBER;SUPPLIER_ITEM_URL;SUPPLIER_LINK;SUPPLIER_NAME;SUPPLIER_URL;TERMINATION
+1;;ELECTROLYTIC_CAPACITOR'8*20';ELECTROLYTIC_CAPACITOR;C5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1;;FE04-1;FE04-1;PMETER;FEMALE HEADER;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+4;;W237-102;W237-102;BUCK_IN, BUCK_OUT, CURR_SENSE, VOLT_SENSE;WAGO SCREW CLAMP;;;;;;;;;;;;;;;;;;;;;;;;;237-102;;;;unknown;70K9898;;;32;;;;;;;;;;;
+2;26604020;26604020;KK41791-4020_2-PIN;BATTERY1, BATTERY2;KK® 396 Header, Vertical, Friction Lock, 2 Circuits, Tin (Sn) Plating;;;;Connectors, Interconnects;Natural;Header, Unshrouded;Tin;60µin (1.52µm);"0.450 (11.43mm)""";Male Pin;CONN HEADER 2POS .156 VERT TIN;"<a href=http://www.molex.com/pdm_docs/sd/026604020_sd.pdf"">Datasheet</a>""";http://www.molex.com/pdm_docs/sd/026604020_sd.pdf;Rectangular Connectors - Headers, Male Pins;Friction Lock;-;;Molex Inc;;;;Through Hole;;;;2;All;1;;;26604020;"0.156 (3.96mm)""";;-;;;KK® 41791;"<a href=http://www.digikey.com/product-search/en?KeyWords=0026604020&WT.z_header=search_go"">Details</a>""";WM4620-ND;http://www.digikey.com/product-search/en?KeyWords=0026604020&WT.z_header=search_go;"<a href=http://www.digikey.com"">Home Page</a>""";Digi-Key;http://www.digikey.com;Solder
+2;100uF;UPS1E101MED;CAPPRD250W50D655H1250;C1, C2;Al electrolytic cap,PS,25V,100 F Nichicon 100uF 25 V dc Aluminium Electrolytic Capacitor, PS Series 2000h 6.3 (Dia.) x 11mm;70187653;;;;;;;;;;Al electrolytic cap,PS,25V,100 F Nichicon 100uF 25 V dc Aluminium Electrolytic Capacitor, PS Series 2000h 6.3 (Dia.) x 11mm;;;;;;12.5mm;;Nichicon;UPS1E101MED;;;;;;;;;;;;;;;5194059P;http://uk.rs-online.com/web/p/products/5194059P;;;;;;;;
+1;1101M2S3CQE2;1101M2S3CQE2;1000-SERIES(SPDT);S1;1101M2S3CQE2 (Slide Switches);70128282;;;;;;;;;;1101M2S3CQE2 (Slide Switches);;;;;;mm;;C & K COMPONENTS;1101M2S3CQE2;;;;;;;;;;;;;;;1617340;http://uk.rs-online.com/web/p/products/1617340;;;;;;;;
+1;1812L300MR;1812L300MR;1812L300MR;F2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1;2920L400/15MR;2920L400/15MR;2920L400/15MR;F1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+2;B4B-XH-A_LF__SN_;B4B-XH-A_LF__SN_;B4B-XH-A_LF__SN_;MCONN1, MCONN2;XH-2.5mm Header top entry 4 way JST XH Series, Series Number B4B, 2.5mm Pitch 4 Way 1 Row Straight PCB Header, Solder Termination, 3A;;;;;;;;;;;XH-2.5mm Header top entry 4 way JST XH Series, Series Number B4B, 2.5mm Pitch 4 Way 1 Row Straight PCB Header, Solder Termination, 3A;;;;;;7mm;;JST (JAPAN SOLDERLESS TERMINALS);B4B-XH-A(LF)(SN);;;;;;;;;;;;;;;;;;;;;;;;
+1;DC_BARREL0-62;DC_BARREL0-62;733980-62;BARREL;FEMALE PRINT CONNECTOR;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;0;;;;;;;;;;;
+1;DIODE-BRIGDE;DIODE-BRIGDE;DIODE-BRIDGE;D2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+4;FE08-1_3D;FE08-1_3D;FE08-1;MDRIVER_1A, MDRIVER_1B, MDRIVER_2A, MDRIVER_2B;FEMALE HEADER;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1;FE10-1_3D;FE10-1_3D;FE10-1;IMU;FEMALE HEADER;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1;MA04-1W;MA04-1W;MA04-1W;TOF;PIN HEADER;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+4;MA04-1_SMALLPAD;MA04-1_SMALLPAD;MA04-1_S;FUT_5V, FUT_GND, FUT_I2C_SCL, FUT_I2C_SDA;PIN HEADER;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1;MA05-1_SMALLPAD;MA05-1_SMALLPAD;MA05-1_S;LIDAR;PIN HEADER;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1;MA15-1W;MA15-1W;MA15-1W;GPIO_PINS;PIN HEADER;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+1;MC-254-40-00-ST-DIP;MC-254-40-00-ST-DIP;MC-254-40-00-ST-DIP;J1;"CONNECTOR, HEADER, 40POS, 2ROW, 2.54MM; Pitch Spacing:2.54mm; No. of Contacts:40Contacts; Gender:Header; Product Range:-; Contact Termination Type:Through Hole; No. of Rows:2Rows; Contact Plating:Gold Plated Contacts RoHS Compliant: Yes";;;;;;;;;;;CONNECTOR, HEADER, 40POS, 2ROW, 2.54MM; Pitch Spacing:2.54mm; No. of Contacts:40Contacts; Gender:Header; Product Range:-; Contact Termination Type:Through Hole; No. of Rows:2Rows; Contact Plating:Gold Plated Contacts RoHS Compliant: Yes;;;;;;9.1mm;;MULTICOMP;MC-254-40-00-ST-DIP;;;;;;;;;;;;;;;;;
+1;SI2303CDS-T1-GE3;PMN30UNH;TSOP6_SOT457;MOSFET1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+0,23;ZENER-THDO-35;ZENER-THDO-35;ZENER-TH;D1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

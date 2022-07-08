@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- Title of the page -->
+        <title>RILey Environment Preparations</title>
+
+        <!-- Used CSS files -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Environment_Preparations_RILey/css/w3.css">
+        <link href="Environment_Preparations_RILey/css/all.css" rel="stylesheet">
+
+        <!-- Used Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+        <!-- Style Presets -->
+        <style>
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: "Lato", sans-serif
+            }
+
+            .w3-bar,
+            h1,
+            button {
+                font-family: "Montserrat", sans-serif
+            }
+
+            .fa-anchor,
+            .fa-coffee {
+                font-size: 200px
+            }
+
+            table {
+                width: 100%;
+            }
+
+            tr:nth-child(even) {
+                background-color: #858585;
+            }
+        </style>
+        <!-- End Style Presets -->
+    </head>
+
+    <!-- Page Content -->
+    <body class="w3-dark-gray">
+        
+        <!-- Header -->
+        <header id="home" class="w3-container w3-red w3-center" style="padding:128px 16px">
+            <h1 class="w3-margin w3-jumbo">Order List</h1>
+            <p class="w3-xlarge">RILey V2 Robot Order List</p>
+        </header>
+        <!-- End Header -->
+
+        <!-- Order List Table -->
+        <div class="w3-padding w3-container w3-padding-64">
+            <table>
+                <tbody>
+                    <tr>
+                        <td width="64">
+                            <p>Items quantity</p>
+                        </td>
+                        <td width="255">
+                            <p>Part</p>
+                        </td>
+                        <td width="227">
+                            <p>Supplier</p>
+                        </td>
+                        <td width="73">
+                            <p>Cost</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Raspberry Pi 4B (rev 1.4 RAM 8GB)</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;85.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Raspberry Pi Camera V2 (8MP)</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;26.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>DRV8825 Motor Drive Module</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;11.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>MPU-9250 Accelerometer</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;9.75</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>VL53L1X ToF distance sensor</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;11.50</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>LM2596 DC-DC step-down converter</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;3.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>Nema17 Stepper Motor (41mm thick)</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;22.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>INA226 Current and Voltage meter</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;6.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>10cm cable for stepper motor</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;4.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>2x Reely Buggy wheels</p>
+                        </td>
+                        <td width="227">
+                            <p>www.conrad.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;24.99</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>LiDAR_LD06 Okdo Module</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.rs-online.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;87.64</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>11.1V Lithium-ion battery pack</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.rs-online.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;66.10</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>MiddlePartV2 (PETG)</p>
+                        </td>
+                        <td width="227">
+                            <p>3D-printed (objex-lab)</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>TailPartV2 (PETG)</p>
+                        </td>
+                        <td width="227">
+                            <p>3D-printed (objex-lab)</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?&nbsp;</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>CameraMount</p>
+                        </td>
+                        <td width="227">
+                            <p>3D-printed (objex-lab)</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>TimeOfFlightMount</p>
+                        </td>
+                        <td width="227">
+                            <p>3D-printed (objex-lab)</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>8</p>
+                        </td>
+                        <td width="255">
+                            <p>Spacer</p>
+                        </td>
+                        <td width="227">
+                            <p>3D-printed (objex-lab)</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>BatteryFrontCover</p>
+                        </td>
+                        <td width="227">
+                            <p>3D-printed (objex-lab)</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>BatteryBackCover</p>
+                        </td>
+                        <td width="227">
+                            <p>3D-printed (objex-lab)</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>3rdFLoor</p>
+                        </td>
+                        <td width="227">
+                            <p>Sheet metal (laser cut)</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>4</p>
+                        </td>
+                        <td width="255">
+                            <p>M2x20mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>5</p>
+                        </td>
+                        <td width="255">
+                            <p>M2x16mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>M2x12mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>5</p>
+                        </td>
+                        <td width="255">
+                            <p>M2x10mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>4</p>
+                        </td>
+                        <td width="255">
+                            <p>M2x6mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>M2 nut</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>4</p>
+                        </td>
+                        <td width="255">
+                            <p>M2.5x12mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>4</p>
+                        </td>
+                        <td width="255">
+                            <p>M2.5 nuts</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>4</p>
+                        </td>
+                        <td width="255">
+                            <p>M3x10mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>10</p>
+                        </td>
+                        <td width="255">
+                            <p>M3x8mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>6</p>
+                        </td>
+                        <td width="255">
+                            <p>M3 nuts</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>M5x30mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>M6x45mm socket head screw</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>M6 nut</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>M10x20mm hex bolt</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>M10 nut</p>
+                        </td>
+                        <td width="227">
+                            <p>?</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;?</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>5</p>
+                        </td>
+                        <td width="255">
+                            <p>PCB</p>
+                        </td>
+                        <td width="227">
+                            <p>jlcpcb.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;35</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>4</p>
+                        </td>
+                        <td width="255">
+                            <p>Female header 8 pin</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;1.00</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Female header 10 pin</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.30</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Male header 40 pin</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.40</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Female header 4 pin</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.15</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>40 Pins header Male - 90 graden</p>
+                        </td>
+                        <td width="227">
+                            <p>www.tinytronics.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.50</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>DC Power Connector Jack 2A</p>
+                        </td>
+                        <td width="227">
+                            <p>www.conrad.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.68</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>4</p>
+                        </td>
+                        <td width="255">
+                            <p>WAGO screw clamp</p>
+                        </td>
+                        <td width="227">
+                            <p>www.conrad.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.84</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Castor wheel</p>
+                        </td>
+                        <td width="227">
+                            <p>www.conrad.nl</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;2.21</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Molex KK 3.96 female crimp connector</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.rs-online.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.11</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>Molex KK 3.96 female crimp Terminal</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.rs-online.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.14</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Molex KK 3.96 straight pin header</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.rs-online.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.25</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>100&mu;F Capacitor 25V</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.rs-online.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.77</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Slide Switch</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.rs-online.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;4.13</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>3M 40-Way IDC Connector 2 row</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.rs-online.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;3.44</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>2</p>
+                        </td>
+                        <td width="255">
+                            <p>JST, XH B4B 4way 1 Row Straight</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.rs-online.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.88</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Pin Header, Wire-to-Board 2,54mm</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.farnell.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.56</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>MOSFET</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.farnell.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.23</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Polyfuse 5A</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.farnell.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;1.50</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Polyfuse 8A</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.farnell.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;1.44</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Zener Diode</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.farnell.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.21</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Capacitor 1500uF 6,3V</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.farnell.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.73</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                            <p>1</p>
+                        </td>
+                        <td width="255">
+                            <p>Diode Rectifier</p>
+                        </td>
+                        <td width="227">
+                            <p>nl.farnell.com</p>
+                        </td>
+                        <td width="73">
+                            <p>&euro;0.57</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="64">
+                        </td>
+                        <td width="255">
+                        </td>
+                        <td width="227">
+                        </td>
+                        <td width="73">
+                            <p>Total: &euro;413,02</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>For more details where to buy the exact components look at the order lists in excel.</p>
+        </div>
+        <!-- End Order List Table -->
+
+    </body>
+    <!-- End Page Content -->
+
+</html>

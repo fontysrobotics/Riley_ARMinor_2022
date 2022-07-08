@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<robot name="riley_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:arg name="wheel_spacing_input"        default="0.151" />
+  <xacro:arg name="wheel_diameter_input"       default="0.126" />
+  <xacro:arg name="wheel_shaft_offset_input"   default="0" />
+  <xacro:arg name="rear_caster_offset_input"   default="-0.200" />
+  <xacro:arg name="back_wheel_diameter_input"  default="0.06" />
+
+  <xacro:property name="wheel_diameter"      value="$(arg wheel_diameter_input)"/> 
+  <xacro:property name="wheel_spacing"       value="$(arg wheel_spacing_input)"/>
+  <xacro:property name="wheel_shaft_offset"  value="$(arg wheel_shaft_offset_input)"/>
+  <xacro:property name="rear_caster_offset"  value="$(arg rear_caster_offset_input)"/>
+  <xacro:property name="back_wheel_diameter" value="$(arg back_wheel_diameter_input)"/>
+
+  <link name="base_footprint"/>
+
+  <link name="base_link"/>
+  <joint name="base_link_joint" type="fixed">
+    <origin xyz="0 0 ${wheel_diameter/2}" rpy="0 0 0" />
+    <parent link="base_footprint"/>
+    <child link="base_link" />
+  </joint>
+
+  <link name="chassis_link">
+    <inertial>
+      <origin xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.317289185919371" />
+      <inertia
+        ixx="0.000970876188779837"
+        ixy="6.94113413553014E-10"
+        ixz="3.51219781695308E-06"
+        iyy="0.00067590401119229"
+        iyz="9.43089820999509E-10"
+        izz="0.00152301084809347" />
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="${-rear_caster_offset} ${wheel_spacing-0.05} 0.076"/> 
+        <mesh filename="package://urdf_tutorial/STL_URDF/RILey_assembly-MiddlepartV1-1.STL"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.0" />
+      <geometry>
+        <box size="${-rear_caster_offset} ${wheel_spacing-0.05} 0.076"/>
+        <mesh filename="package://urdf_tutorial/STL_URDF/RILey_assembly-MiddlepartV1-1.STL"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="chassis_link_joint" type="fixed">
+    <origin xyz="${rear_caster_offset/2} 0 0" rpy="0 0 0" />
+    <parent link="base_link"/>
+    <child link="chassis_link" />
+  </joint>
+  
+  <xacro:macro name="wheel" params="prefix reflect">
+    <link name="${prefix}_wheel">
+      <visual>
+        <origin xyz="${-wheel_diameter/2} ${-wheel_diameter/4} 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="${wheel_diameter/2}" length="0.044"/>
+          <mesh filename="package://urdf_tutorial/STL_URDF/RILey_assembly-ReelyBuggyWheel_Right-2.STL"/>
+        </geometry>
+      </visual>
+      <visual>
+        <origin xyz="${-wheel_diameter/2} 0.01 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <box size="${wheel_diameter/2} ${wheel_diameter/2} 0.02" />
+        </geometry>
+      </visual>
+      <collision>
+        <origin xyz="${-wheel_diameter/2} ${-wheel_diameter/4} 0" rpy="${pi/2} 0 0"/>
+        <geometry>
+          <cylinder radius="${wheel_diameter/2}" length="0.044"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.215732042845507"/>
+        <inertia
+        ixx="0.00025759718782391"
+        ixy="2.12843584581061E-11"
+        ixz="-5.66299342939977E-12"
+        iyy="0.000452238839696424"
+        iyz="3.99311464604179E-12"
+        izz="0.000257597229543076" />
+        </inertial>
+    </link>
+ 
+    
+ 
+    <gazebo reference="${prefix}_wheel">
+      <material>Gazebo/DarkGrey</material>
+      <selfCollide>false</selfCollide>
+      <mu1 value="1"/>
+      <mu2 value="1"/>
+      <kp value="10000000.0" />
+      <kd value="1" />
+      <fdir1 value="0 0 1"/>
+    </gazebo>
+
+    <joint name="${prefix}_wheel_joint" type="continuous">
+      <axis xyz="0 ${-reflect} 0" rpy="0 0 0" />
+      <parent link="base_link"/>
+      <child link="${prefix}_wheel"/>
+      <origin xyz="${wheel_shaft_offset} ${(0.5*wheel_spacing)*reflect} 0" rpy="${(reflect+1)*pi/2} 0 0"/>
+    </joint>
+
+    <transmission name="${prefix}_wheel_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${prefix}_wheel_joint">
+        <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="${prefix}_actuator">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+  </xacro:macro>
+
+  <!-- add the wheels -->
+  <xacro:wheel prefix="left" reflect="1"/>
+  <xacro:wheel prefix="right" reflect="-1"/>
+  
+  <xacro:macro name="sphere_inertia" params="m r">
+    <inertial>
+      <mass value="${m}"/>
+      <inertia ixx="${2.0*m*(r*r)/5.0}" ixy="0.0" ixz="0.0" iyy="${2.0*m*(r*r)/5.0}" iyz="0.0" izz="${2.0*m*(r*r)/5.0}"/>
+    </inertial>
+  </xacro:macro>
+  
+  <link name="back_wheel">
+    <visual>
+      <origin rpy="1.57075 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="${back_wheel_diameter/2}"/>
+        <mesh filename="package://urdf_tutorial/STL_URDF/RILey_assembly-Backwheel-1.STL"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.57075 0 0"/>
+      <geometry>
+        <sphere radius="${back_wheel_diameter/2}"/>
+        <mesh filename="package://urdf_tutorial/STL_URDF/RILey_assembly-Backwheel-1.STL"/>
+      </geometry>
+    </collision>
+    <xacro:sphere_inertia m="0.1" r="${back_wheel_diameter/2}"/>
+  </link>
+  
+  <joint name="back_wheel_joint" type="continuous">
+    <axis xyz="-0.133333333333 0 -0.015" rpy="0 0 0" />
+    <origin xyz="${rear_caster_offset} 0 ${-back_wheel_diameter/2}" rpy="0 0 0"/>
+    <parent link="chassis_link"/>
+    <child link="back_wheel"/>
+  </joint>
+
+  <gazebo reference="back_wheel">
+    <material>Gazebo/DarkGrey</material>
+    <selfCollide>false</selfCollide>
+    <mu1 value="0.05"/>
+    <mu2 value="0.05"/>
+    <kp value="10000000.0" />
+    <kd value="1" />
+    <fdir1 value="0 0 1"/>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace></robotNamespace>
+    </plugin>
+
+    <plugin name="p3d_base_controller" filename="libgazebo_ros_p3d.so">
+      <alwaysOn>true</alwaysOn>
+      <updateRate>50.0</updateRate>
+      <bodyName>base_footprint</bodyName>
+      <topicName>pose_ground_truth</topicName>
+      <gaussianNoise>0.01</gaussianNoise>
+      <frameName>map</frameName>
+      <xyzOffsets>0 0 0</xyzOffsets>
+      <rpyOffsets>0 0 0</rpyOffsets>
+    </plugin>
+  </gazebo>
+
+  <gazebo reference="base_link">
+    <turnGravityOff>false</turnGravityOff>
+  </gazebo>
+  <gazebo reference="chassis_link">
+    <turnGravityOff>false</turnGravityOff>
+  </gazebo>
+  
+  
+
+</robot>
+

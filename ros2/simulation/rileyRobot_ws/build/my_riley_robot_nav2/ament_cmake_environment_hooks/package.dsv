@@ -1,0 +1,4 @@
+source;share/my_riley_robot_nav2/local_setup.bash
+source;share/my_riley_robot_nav2/local_setup.dsv
+source;share/my_riley_robot_nav2/local_setup.sh
+source;share/my_riley_robot_nav2/local_setup.zsh

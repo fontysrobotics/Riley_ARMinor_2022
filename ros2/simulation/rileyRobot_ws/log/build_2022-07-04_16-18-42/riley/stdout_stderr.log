@@ -1,0 +1,82 @@
+running egg_info
+creating ../../build/riley/riley.egg-info
+writing ../../build/riley/riley.egg-info/PKG-INFO
+writing dependency_links to ../../build/riley/riley.egg-info/dependency_links.txt
+writing entry points to ../../build/riley/riley.egg-info/entry_points.txt
+writing requirements to ../../build/riley/riley.egg-info/requires.txt
+writing top-level names to ../../build/riley/riley.egg-info/top_level.txt
+writing manifest file '../../build/riley/riley.egg-info/SOURCES.txt'
+reading manifest file '../../build/riley/riley.egg-info/SOURCES.txt'
+writing manifest file '../../build/riley/riley.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/rileyRobot_ws/build/riley/build
+creating /home/student/rileyRobot_ws/build/riley/build/lib
+creating /home/student/rileyRobot_ws/build/riley/build/lib/riley
+copying riley/__init__.py -> /home/student/rileyRobot_ws/build/riley/build/lib/riley
+running install
+running install_lib
+creating /home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley
+copying /home/student/rileyRobot_ws/build/riley/build/lib/riley/__init__.py -> /home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley
+byte-compiling /home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/student/rileyRobot_ws/install/riley/share/ament_index
+creating /home/student/rileyRobot_ws/install/riley/share/ament_index/resource_index
+creating /home/student/rileyRobot_ws/install/riley/share/ament_index/resource_index/packages
+copying resource/riley -> /home/student/rileyRobot_ws/install/riley/share/ament_index/resource_index/packages
+copying package.xml -> /home/student/rileyRobot_ws/install/riley/share/riley
+creating /home/student/rileyRobot_ws/install/riley/share/riley/launch
+copying launch/rviz2.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+copying launch/slam_toolbox.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+copying launch/riley_empty_world.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+copying launch/riley_world.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+copying launch/riley_teleop.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+copying launch/multi_riley.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+copying launch/multi_nav2_slam.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+copying launch/nav2_slam.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+copying launch/display.launch.py -> /home/student/rileyRobot_ws/install/riley/share/riley/launch
+creating /home/student/rileyRobot_ws/install/riley/share/riley/worlds
+copying worlds/world.model -> /home/student/rileyRobot_ws/install/riley/share/riley/worlds
+copying worlds/my_world.sdf -> /home/student/rileyRobot_ws/install/riley/share/riley/worlds
+creating /home/student/rileyRobot_ws/install/riley/share/riley/Riley_URDF
+copying Riley_URDF/riley_robot.urdf -> /home/student/rileyRobot_ws/install/riley/share/riley/Riley_URDF
+copying Riley_URDF/riley_robot_original.urdf.xacro -> /home/student/rileyRobot_ws/install/riley/share/riley/Riley_URDF
+copying Riley_URDF/riley_robot.urdf.xacro -> /home/student/rileyRobot_ws/install/riley/share/riley/Riley_URDF
+creating /home/student/rileyRobot_ws/install/riley/share/riley/config
+creating /home/student/rileyRobot_ws/install/riley/share/riley/config/slam
+copying config/slam/mapping.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/slam
+copying config/slam/localization.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/slam
+creating /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+copying config/nav2/controller_dwb.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+copying config/nav2/recoveries.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+copying config/nav2/waypoint.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+copying config/nav2/bt_navigator.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+copying config/nav2/planner.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config/nav2
+copying config/nav2_params.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config
+copying config/ekf.yaml -> /home/student/rileyRobot_ws/install/riley/share/riley/config
+creating /home/student/rileyRobot_ws/install/riley/share/riley/rviz
+copying rviz/urdf.rviz -> /home/student/rileyRobot_ws/install/riley/share/riley/rviz
+creating /home/student/rileyRobot_ws/install/riley/share/riley/models
+creating /home/student/rileyRobot_ws/install/riley/share/riley/models/riley
+copying models/riley/riley_robot.sdf -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley
+copying models/riley/model.sdf -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley
+creating /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld
+copying models/rileyWorld/model.sdf -> /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld
+creating /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/MiddlepartV2.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/SwivelWheel-SwivelWheelWheel-1.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/IMU.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/ReelyBuggyWheel_Left.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/Camera.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/SwivelWheel-SwivelWheelMid-1.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/ReelyBuggyWheel_Right.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/Lidar.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/SwivelWheel-SwivelWheelBase-1.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+copying models/riley/meshes/MiddlepartTailV2.STL -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley/meshes
+creating /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld/meshes
+copying models/riley/model.config -> /home/student/rileyRobot_ws/install/riley/share/riley/models/riley
+copying models/rileyWorld/model.config -> /home/student/rileyRobot_ws/install/riley/share/riley/models/rileyWorld
+running install_egg_info
+Copying ../../build/riley/riley.egg-info to /home/student/rileyRobot_ws/install/riley/lib/python3.8/site-packages/riley-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/student/rileyRobot_ws/build/riley/install.log'

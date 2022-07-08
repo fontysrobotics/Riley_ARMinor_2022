@@ -1,0 +1,20 @@
+[0.055s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_nav2 -- -j12 -l12
+[0.426s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --build /home/student/rileyRobot_ws/build/my_riley_robot_nav2 -- -j12 -l12
+[0.470s] Invoking command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_nav2
+[0.565s] -- Install configuration: ""
+[0.567s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/ament_index/resource_index/package_run_dependencies/my_riley_robot_nav2
+[0.568s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/ament_index/resource_index/parent_prefix_path/my_riley_robot_nav2
+[0.568s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/ament_prefix_path.sh
+[0.569s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/ament_prefix_path.dsv
+[0.569s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/path.sh
+[0.569s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/environment/path.dsv
+[0.570s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.bash
+[0.573s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.sh
+[0.573s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.zsh
+[0.573s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/local_setup.dsv
+[0.573s] -- Installing: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.dsv
+[0.574s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/ament_index/resource_index/packages/my_riley_robot_nav2
+[0.574s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/cmake/my_riley_robot_nav2Config.cmake
+[0.574s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/cmake/my_riley_robot_nav2Config-version.cmake
+[0.574s] -- Up-to-date: /home/student/rileyRobot_ws/install/my_riley_robot_nav2/share/my_riley_robot_nav2/package.xml
+[0.576s] Invoked command in '/home/student/rileyRobot_ws/build/my_riley_robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/rileyRobot_ws/install/xbox_input:/home/student/rileyRobot_ws/install/riley:/opt/ros/foxy /usr/bin/cmake --install /home/student/rileyRobot_ws/build/my_riley_robot_nav2
