@@ -8,7 +8,7 @@
     <!-- Used CSS files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Environment_Preparations_RILey/css/w3.css">
-    <link href="Environment_Preparations_RILey/css/all.css" rel="stylesheet">
+    <link href="Environment_Preparations_RILey/css/fontAwesome.css" rel="stylesheet">
 
     <!-- Used Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -74,13 +74,13 @@
                 </p>
 
                 <img src="Environment_Preparations_RILey/pictures/Raspberry_Install/Raspberry_imager_pic1.png"
-                    style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Operating System">
+                    style="width:100%" onclick="imgClick(this)" class="w3-hover-opacity" alt="Operating System">
                 <img src="Environment_Preparations_RILey/pictures/Raspberry_Install/Raspberry_imager_pic2.png"
-                    style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Other general-purpose OS">
+                    style="width:100%" onclick="imgClick(this)" class="w3-hover-opacity" alt="Other general-purpose OS">
                 <img src="Environment_Preparations_RILey/pictures/Raspberry_Install/Raspberry_imager_pic3.png"
-                    style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Ubuntu">
+                    style="width:100%" onclick="imgClick(this)" class="w3-hover-opacity" alt="Ubuntu">
                 <img src="Environment_Preparations_RILey/pictures/Raspberry_Install/Raspberry_imager_pic4.png"
-                    style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                    style="width:100%" onclick="imgClick(this)" class="w3-hover-opacity"
                     alt="Ubuntu Server 20.04.4 LTS (RPi 3/4/400)">
 
                 <p>After selecting the OS select a storage device the SD-card and press write to put the OS image on the
@@ -102,14 +102,15 @@
         <div class="w3-content">
             <div class="w3-third w3-center">
                 <i class="fa-brands fa-raspberry-pi fa-10x w3-padding-64 w3-margin-right"></i>
-                <i class="fa-solid fa-wifi fa-9x w3-padding-64 w3-margin-right"></i>
+                <i class="fa-solid fa-signal fa-9x w3-padding-64 w3-margin-right"></i>
             </div>
 
             <div class="w3-twothird">
                 <h1>2. Configure network setting on Raspberry Pi</h1>
 
                 <p>To connect your raspberry to a Wi-Fi network you have to log in to your raspberry pi using a monitor
-                    and keyboard. Here you be setting up a static IP on the raspberry, to be able to SSH into the Pi.</p>
+                    and keyboard. Here you be setting up a static IP on the raspberry, to be able to SSH into the Pi.
+                </p>
 
                 <p>Navigate to netplan</p>
 
@@ -293,6 +294,17 @@
         </div>
     </div>
     <!-- End Configure Raspberry -->
+
+    <!-- Modal for full size images on click-->
+    <div id="modal" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright"
+            title="Close Modal Image">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+    <!-- End Modal for full size images on click-->
 
 </body>
 <!-- End Page Content -->

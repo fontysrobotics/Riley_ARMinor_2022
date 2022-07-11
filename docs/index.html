@@ -13,7 +13,7 @@
 
         <!-- Used CSS files -->
         <link rel="stylesheet" href="Environment_Preparations_RILey/css/w3.css">
-        <link href="Environment_Preparations_RILey/css/all.css" rel="stylesheet">
+        <link href="Environment_Preparations_RILey/css/fontAwesome.css" rel="stylesheet">
         <link href="Environment_Preparations_RILey/css/scrollToTopButton.css" rel="stylesheet">
 
         <!-- Used Fonts -->
@@ -275,6 +275,7 @@
             </script>
             <!-- End Tab Control -->
 
+            <!-- Go To Top Button -->
             <script>
                 //Get the button:
                 scrollButton = document.getElementById("scrollBtn");
@@ -296,22 +297,23 @@
                     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
                 }
             </script>
+            <!-- End Go To Top Button -->
 
             <!-- Code Coloring -->
             <script src="https://www.w3schools.com/lib/w3codecolor.js"></script>
             <script>w3CodeColor()</script>
             <!-- End Code Coloring -->
 
-            <!-- Image gallery handling -->
+            <!-- Image modal handling -->
             <script>
-                function onClick(element) {
-                    document.getElementById("imgProgress").src = element.src;
-                    document.getElementById("modalProgress").style.display = "block";
+                function imgClick(element) {
+                    document.getElementById("img").src = element.src;
+                    document.getElementById("modal").style.display = "block";
                     var captionText = document.getElementById("caption");
                     captionText.innerHTML = element.alt;
                 }
             </script>
-            <!-- End Image gallery handling -->
+            <!-- End Image modal handling -->
 
             <!-- Includes -->
             <script>
